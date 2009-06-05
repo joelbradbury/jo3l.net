@@ -1,14 +1,18 @@
-h1. This is the data for my blog
+h1. This is the underlying data for my blog
 
-It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into a static site whenever I push this repository to GitHub.
+Using "Jekyll":http://github.com/mojombo/jekyll it gets turned into a static site, when after a push up to github
 
-I was tired of having my blog posts end up in a database off on some remote server. That is backwards. I've lost valuable posts that way. I want to author my posts locally in Textile or Markdown. My blog should be easily stylable and customizable any way I please. It should take care of creating a feed for me. And most of all, my site should be stored on GitHub so that I never lose data again.
+It's all just a way of getting closer to the content without loosing the flexibility. I don't need some fancy control panel to tell me how to markup my posts, and I defiantly don't need some clever script tidying up my markup.
 
-h1. License
+I don't want to loose my data, by tied to anyone place, or operating system. Once I've written something, it's still mine, and i want the ability to change anything I want, at any time. 
 
-The following directories and their contents are Copyright Tom Preston-Werner. You may not reuse anything therein without my permission:
+I can't take any of the credit for any of this, it was all made by far more motivated men.
+
+h2. License
+
+You can fork this site at any point. Hell, you can even download the whole thing as a tar, but if you do, the content of the following directories are Copyright Joel Bradbury. If you want to reuse anything in them, ask for my permission first. I'll doubtless say yes, but don't be a dick about it. 
 
 * _posts/
-* images/
+* images.
 
-All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please. If you do use them, a link back to http://github.com/mojombo/jekyll would be appreciated, but is not required.
+Everything else is far game, and by far game, I mean MIT licensed. The original setup was forked from http://github.com/mojombo/jekyll so have a look there if you'd like to see further up the tree. Take the html, css and javascript and do whatever you please (though preferably not in exactly the format they are now). If you use them, let me know, or a link back would be just lovely. And you are a lovely person aren't you. 
