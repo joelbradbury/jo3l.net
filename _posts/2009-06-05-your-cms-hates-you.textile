@@ -5,7 +5,7 @@ title : Your CMS Hates you
 
 h1. {{ page.title }}
 
-p(meta). 6th June 2009 - North Wales
+p(meta). 6th June 2009
 
 This site has been through almost 6 iterations that have never seen the light of day.
 

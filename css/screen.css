@@ -13,13 +13,17 @@
 
 html, body {
   height: 100%;
+
 }
 
 body {
-  background-color: white;
+	border-top:7px solid #333;
+  background-color: #222;
+  color:#ccc;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
+	margin-bottom:7px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,7 +31,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+	text-align:left;
   margin-bottom: 1em;
+	font-size: 62px;
+	text-shadow: 1px 1px 3px #666666, -2px -1px 3px #000000;
+	color:#eee;
+	line-height:100%;
 }
 
 p {
@@ -35,15 +44,17 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #779;
+	text-decoration:none;
 }
 
 a:hover {
-  color: black;
+  color: #ccc;
+	text-decoration:underline;
 }
 
 a:visited {
-  color: #a0a;
+  color: #889;
 }
 
 table {
@@ -65,7 +76,7 @@ ul.posts {
   ul.posts li {
     line-height: 1.75em;
   }
-
+ p.meta,
   ul.posts span {
     color: #aaa;
     font-family: Monaco, "Courier New", monospace;
@@ -90,15 +101,18 @@ ul.posts {
   color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
+  border-bottom: 1px solid #333;
 }
 
-  .site .title a {
-    color: #a00;
-    text-decoration: none;
-  }
+ .site .title a {
+	color:#111;
+   text-decoration: none;
+	margin-bottom:40px;
+	display:block;
+ }
 
   .site .title a:hover {
-    color: black;
+    color: #eee;
   }
 
   .site .title a.extra {
@@ -118,14 +132,19 @@ ul.posts {
   .site .footer {
     font-size: 80%;
     color: #666;
-    border-top: 4px solid #eee;
+    border-top: 1px solid #333;
     margin-top: 2em;
     overflow: hidden;
   }
 
     .site .footer .contact {
       float: left;
-      margin-right: 3em;
+ 			width : 30%;
+    }
+		.site .footer .blurb {
+      float: left;
+ 			width : 65%;
+			margin-right:5%;
     }
 
       .site .footer .contact a {
