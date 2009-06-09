@@ -1,0 +1,10 @@
+---
+layout: post
+title: Get it together with Jekyll
+categories : 'test'
+---
+
+h1. {{ page.title }}
+
+You need to get things together. 
+
