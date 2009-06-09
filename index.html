@@ -4,7 +4,7 @@ title: Joel Bradbury
 ---
 
 <div id="home">
-  <h2>TESTreereJournal</h2>
+  <h2>Journal</h2>
   <ul class="posts">
     {% for post in site.posts limit:5 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> <span>[ {% for topic in post.topics %}{{ topic }} {% endfor %}]</span></li>
