@@ -1,23 +1,17 @@
 ---
 layout : post
-title : Your CMS Hates you
+title : A Camera Doesn't make you a photographer
 ---
 
 h1. {{ page.title }}
 
 p(meta). 6th June 2009
 
-This site has been through almost 6 iterations that have never seen the light of day.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-I used to blame the lack of time. Always working on the next design for so long that I eventually fall out of love with it and end up scrapping it all and building up something new from the ground. Other times I blame the technology I'm working with, that just doesn't let me do everything I want it to. Let's move everything over to a new engine. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Drawings were made, schemes schemed. Anything to just get a new site out. Let's go minimal. Minimal is less work. Obviously right(?). I won't need to do as much, just get it to a simple state and push it live. I can update it once it's up there. 
+h2. Lorem ipsum dolor sit amet
 
-Yeah right.
-
-After scrambling around for more than a year now I've come to realize one important point. 
-
-h2. Your CMS Hates You. 
-
-The CMS is the one thing that's keeping you from your site. It's abstracting everything, letting you (and me) spend so much more time concentrating on the design, on the interesting bits, rather than on the CONTENT.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
