@@ -7,9 +7,43 @@ h1. {{ page.title }}
 
 p(meta). 6th June 2009
 
-This site has been through almost 6 iterations that have never seen the light of day.
+This site has been through almost 6 designs that have never seen the light of day. After so many unsuccessful builds I've come to realize one *important* thing. 
 
-I used to blame the lack of time. Always working on the next design for so long that I eventually fall out of love with it and end up scrapping it all and building up something new from the ground. Other times I blame the technology I'm working with, that just doesn't let me do everything I want it to. Let's move everything over to a new engine. 
+bq. Your CMS *hates*  you. 
+
+And this is a really deep and malicious hate. It's not that it just doesn't understand you or your way of life. It's whole existence is *dedicated to causing you pain*.
+
+I don't know why it's taken this long to see it. 
+
+Quick. Stop. Think of your favorite site right now... What is it about it you like? 
+
+The design? _Maybe_ The interactions. _Possibly_ The Content? _More than likely_
+
+Notice what's not on that list? The *CMS*. Why? Because the only people that give a damn about them, are the site owners. All they do is give some way of _getting_ the content to the user. 
+
+
+
+It always followed the same pattern.
+
+* Ideas
+* Sketches
+* Mockups
+* Builds
+
+h2. What was missing?
+
+
+It's not that none of the designs weren't any good. It was the same issue, anybody sets out to design and build their own site faces. During the build process you'd spend so much time fretting over the smallest of details, eventually the thing as a whole escapes you, and you end with a build that, 
+
+
+
+
+I used to blame the lack of time, but more recently I've come to realize that's not really the issue. 
+
+
+
+
+ Always working on the next design for so long that I eventually fall out of love with it and end up scrapping it all and building up something new from the ground. Other times I blame the technology I'm working with, that just doesn't let me do everything I want it to. Let's move everything over to a new engine. 
 
 Drawings were made, schemes schemed. Anything to just get a new site out. Let's go minimal. Minimal is less work. Obviously right(?). I won't need to do as much, just get it to a simple state and push it live. I can update it once it's up there. 
 

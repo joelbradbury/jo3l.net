@@ -38,6 +38,7 @@ h1 {
 	color:#eee;
 	line-height:100%;
 }
+h2 { font-size : 24px;}
 
 p {
   margin: 1em 0;
@@ -61,6 +62,12 @@ table {
   font-size: inherit;
   font: 100%;
 }
+blockquote { 
+	padding: 1px 30px;
+	background: #333;
+	border : 1px solid #444;
+	}
+em { font-weight: bold;}
 
 /*****************************************************************************/
 /*
