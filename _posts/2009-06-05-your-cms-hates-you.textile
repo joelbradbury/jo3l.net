@@ -15,12 +15,16 @@ And this is a really deep and malicious hate. It's not that it just doesn't unde
 
 I don't know why it's taken this long to see it. 
 
-Quick. Stop. Think of your favorite site right now... What is it about it you like? 
+Every design and build I've done for this site has had the same fatal flaw. They've all been going about it backwards.
 
-The design? _Maybe_ The interactions. _Possibly_ The Content? _More than likely_
+I've started with the design, gone through the build, then moved that onto some Content Management System. At that point, I start thinking about content. 
 
-Notice what's not on that list? The *CMS*. Why? Because the only people that give a damn about them, are the site owners. All they do is give some way of _getting_ the content to the user. 
 
+
+
+The design? _Maybe_. The interactions. _Possibly_. The Content? _More than likely_.
+
+Notice what's not on that list? The *CMS*. Why? Because the only people that give a damn about them, are the site owners. All they do is give some way of _getting_ the content to the user. More than that, the only thing they do a better job of 
 
 
 It always followed the same pattern.
