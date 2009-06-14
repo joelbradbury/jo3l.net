@@ -227,10 +227,12 @@ ul.posts {
 /* war */
 body.war_over { 
 	background: transparent url(http://www.berttimmermans.com/wp-content/themes/BertTimmermans/img/main_bg.jpg) repeat scroll 0 0;
-	border-top: 7px solid #9A804F;}
+	border-top: 7px solid rgba(154, 128, 79, 0.9);
+	color:#333;}
 .war_over h1 { 
 	color: #AB231D;
 	text-align: center;
 	font-weight: lighter;
-	text-shadow :1px 1px 3px #FFFFFF, -2px -1px 3px #A2231F;}
-.war_over h1 span.main { display:block; font-weight:bold;}
+	font-size:40px;
+	text-shadow :1px 1px 3px #FFFFFF, -2px -1px 3px #A2231F;line-height:75%;}
+.war_over h1 span.main { display:block; font-weight:bold; font-size: 108px; line-height:75%;}
