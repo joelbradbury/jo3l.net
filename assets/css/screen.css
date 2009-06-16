@@ -38,6 +38,7 @@ h1 {
 	color:#eee;
 	line-height:100%;
 }
+h2 { font-size : 24px;}
 
 p {
   margin: 1em 0;
@@ -61,6 +62,12 @@ table {
   font-size: inherit;
   font: 100%;
 }
+blockquote { 
+	padding: 1px 30px;
+	background: #333;
+	border : 1px solid #444;
+	}
+em { font-weight: bold;}
 
 /*****************************************************************************/
 /*
@@ -105,7 +112,7 @@ ul.posts {
 }
 
  .site .title a {
-	color:#111;
+	color:#000;
    text-decoration: none;
 	margin-bottom:40px;
 	display:block;
@@ -214,3 +221,22 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+/* specifics */
+
+/* war */
+body.war_over { 
+	background: transparent url(http://www.berttimmermans.com/wp-content/themes/BertTimmermans/img/main_bg.jpg) repeat scroll 0 0;
+	border-top: 7px solid rgba(154, 128, 79, 0.9);
+	color:#333;}
+.war_over h1 { 
+	color: #AB231D;
+	text-align: center;
+	font-weight: lighter;
+	font-size:40px;
+	text-shadow :1px 1px 3px #FFFFFF, -2px -1px 3px #A2231F;line-height:75%;}
+.war_over h1 span.main { display:block; font-weight:bold; font-size: 108px; line-height:75%;}
+.war_over ul.posts span { color: #555; }
+.war_over a,.war_over .footer .contact a  { color:#aa1111; }
+.war_over a:visited,.site .footer .contact a:visited { color : #ee1111;}
+.war_over .footer { color: #333;}

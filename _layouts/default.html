@@ -8,12 +8,15 @@
    <meta name="author" content="Joel Bradbury" />
 
    <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-
+   <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css" />
    <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/assets/css/screen.css" type="text/css" media="screen, projection" />
+	 <link href="/assets/images/favicon.gif" rel="shortcut icon" type="image/ico" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="/assets/js/eCSStender.js"></script>
+	
 </head>
-<body>
+<body class="{{ page.body }}">
 
 <div class="site">
   <div class="title">
@@ -21,9 +24,9 @@
   </div>  
   {{ content }}
     <div class="footer">
-    <div class="blurb">
-		<p>My name's Joel Bradbury, and I'm a developer from North Wales. My name's Joel Bradbury, and I'm a developer from North Wales. My name's Joel Bradbury, and I'm a developer from North Wales. </p>
-    </div>
+	    <div class="blurb">
+			<p>My name's Joel Bradbury. Professionally I push bits around, to make other bits do things people want. Personally, I do pretty much the same. If you feel motivated to, email me : joel@[[this.domain]]</p>
+	    </div>
     <div class="contact">
       <p>
         <a href="http://github.com/joelbradbury/">github.com/joelbradbury</a><br />
