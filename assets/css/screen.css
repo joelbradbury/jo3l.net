@@ -239,5 +239,5 @@ body.war_over {
 .war_over h1 span.main { display:block; font-weight:bold; font-size: 108px; line-height:75%;}
 .war_over ul.posts span { color: #555; }
 .war_over a,.war_over .footer .contact a  { color:#aa1111; }
-.war_over a:visited,.site .footer .contact a:visited { color : #ee1111;}
+.war_over a:visited,.war_over .footer .contact a:visited { color : #ee1111;}
 .war_over .footer { color: #333;}
