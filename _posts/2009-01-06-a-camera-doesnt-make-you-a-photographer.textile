@@ -1,6 +1,7 @@
 ---
 layout : post
 title : A Camera Doesn't make you a photographer
+published : false
 ---
 
 h1. {{ page.title }}

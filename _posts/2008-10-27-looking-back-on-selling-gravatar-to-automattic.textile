@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Looking back on Selling Gravatar to Automattic
-published : true
+published : false
 ---
 
 h1. {{ page.title }}
