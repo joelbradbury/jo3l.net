@@ -89,7 +89,8 @@ ul.posts {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
-
+#home { padding-top:40px;}
+#home h2 { padding-bottom: 18px;}
 /*****************************************************************************/
 /*
 /* Site
@@ -176,7 +177,7 @@ ul.posts {
 
 #post {
 	padding-bottom:40px;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #333;
 }
 
   /* standard */
