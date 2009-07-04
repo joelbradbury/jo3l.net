@@ -20,10 +20,11 @@ body {
 	border-top:7px solid #333;
   background-color: #222;
   color:#ccc;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  font: 13.34px 'Helvetica Neue', helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 	margin-bottom:7px;
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -245,8 +246,17 @@ body.war_over {
 
 /* about */
 body.about .site { width: 935px; margin-top: 0;}
-.about h1 { font-size: 30px; padding-top:25px;}
+.about h1 { font-size: 30px; padding-top:25px; font-weight:200;}
 .about .cols { -moz-column-count: 2; -moz-column-gap: 30px;}
 .about .site #title { border-bottom: none; margin-bottom: -28px;}
 .about .site #title a { margin-bottom: 20px; margin-top:27px;}
 .about { background : transparent url(/assets/images/about_body.jpg) repeat scroll 0 0; border-top:7px solid #3F3B33;}
+
+#badge .badges { display: block; height: 43px; }
+#badge li {	float: left;	list-style: none; }
+#badge .badge {	display: block;	cursor: pointer;	overflow: hidden;	height: 46px;	width: 60px;	background: #fff;	margin-right: 13px; }
+#badge .badge span {	display: none; }
+#badge .flickr { background: url(../images/flickr.png);	background-repeat: no-repeat; }
+#badge .twitter {	background: url(../images/twitter.png);	background-repeat: no-repeat; }
+#badge .lastfm {	background: url(../images/lastfm.png);	background-repeat: no-repeat; }
+#badge .github {	background: url(../images/github.png);	background-repeat: no-repeat;}
