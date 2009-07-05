@@ -109,17 +109,18 @@ ul.posts {
 #title {
   color: #a00;
   font-weight: bold;
-  margin-bottom: 2em;
-  border-bottom: 1px solid #333;
+	display:block;
+  margin-bottom: 20px;
+	padding-bottom:40px;
+  border-bottom: 1px solid #333;	
 }
 
  .site #title a {
 	color:#000;
    text-decoration: none;
 	margin-bottom:40px;
-	display:block;
  }
-
+ #title a.hello { display:block;}
   .site #title a:hover {
     color: #eee;
   }
@@ -169,7 +170,9 @@ ul.posts {
       .site .footer .rss img {
         border: 0;
       }
-
+ #title #home_extra { color:#333; padding-left:20px;}
+ #title:hover #home_extra { color:#aaa;}
+ #title #home_extra:hover { color:#fff;}
 /*****************************************************************************/
 /*
 /* Posts
@@ -248,9 +251,8 @@ body.war_over {
 body.about .site { width: 935px; margin-top: 0;}
 .about h1 { font-size: 30px; padding-top:25px; font-weight:200;}
 .about .cols { -moz-column-count: 2; -moz-column-gap: 30px;}
-.about .site #title { border-bottom: none; margin-bottom: -28px;}
-.about .site #title a { margin-bottom: 20px; margin-top:27px;}
-.about { background : transparent url(/assets/images/about_body.jpg) repeat scroll 0 0; border-top:7px solid #3F3B33;}
+.about { background : #302D28 url(/assets/images/about_body.jpg) repeat scroll 0 0; border-top:7px solid #3F3B33;}
+.about #title { margin-top : 3em; border:none; margin-bottom: 0; padding-bottom:0;}
 
 #badge .badges { display: block; height: 43px; }
 #badge li {	float: left;	list-style: none; }
