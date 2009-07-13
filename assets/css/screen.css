@@ -262,4 +262,5 @@ body.about .site { width: 935px; margin-top: 0;}
 #badge .flickr { background: url(../images/flickr.png);	background-repeat: no-repeat; }
 #badge .twitter {	background: url(../images/twitter.png);	background-repeat: no-repeat; }
 #badge .lastfm {	background: url(../images/lastfm.png);	background-repeat: no-repeat; }
+
 #badge .github {	background: url(../images/github.png);	background-repeat: no-repeat;}

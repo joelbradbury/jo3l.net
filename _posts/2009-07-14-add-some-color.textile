@@ -1,0 +1,39 @@
+---
+layout : post
+title : Add Some Color to Git and Svn
+body : add_some_color
+---
+
+h1. {{ page.title }}
+
+Everybody knows that using svn/git* over command line is the way forward. GUI's make for a soft developer (I'm looking at you "tortoiseSVN":http://tigris.svn.org) and leaves you in a bind on different systems where they aren't supported (ie. over ssh). 
+
+One of the things that helps massively is adding some color. Git has this ability _out the box_, you just need to enable it. 
+
+h2. Color in Git
+
+Git has supported the '--color' option for a while for the *diff* and *log* commands, but since version 1.5, you can add color system wide for git. All you need to do is edit the .git/config file and add the following.
+
+{% highlight ini%}
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow 
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+{% endhighlight %}
+
+Bang. Color in your git commands. Pretty. Now if only we could do something similar with SVN.
+
+h2. Color in SVN.
