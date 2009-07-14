@@ -228,7 +228,8 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
-
+p.footnote { margin-top:20px; font-size:90%; color:#888;}
+p.footnote:hover, p.footnote:target { background-color: #111; color: #CCC;}
 /* specifics */
 
 /* war */
