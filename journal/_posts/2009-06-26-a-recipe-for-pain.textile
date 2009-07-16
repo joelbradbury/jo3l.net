@@ -1,0 +1,41 @@
+---
+layout: post
+title: a recipe for pain
+body: recipe_for_pain
+published : false
+---
+
+h1. {{ page.title }}
+
+p(meta). {{ page.date }}
+
+Take one car. 
+
+Add some old spark plugs. 
+
+Throw an old coil into the mix.
+
+Wait for coil to fail, and car to stop.
+
+Buy a new coil and spark plugs.
+
+Remove first three spark plugs easily.
+
+Attempt to remove the final spark plug.
+
+Shear the spark plug head off in the engine block. 
+
+Curse and blast it. 
+
+Attempt to use an extractor tool to remove sheared off head.
+
+Shear off extractor tool head inside remains of spark plug. 
+
+Curse, blast and damn it. 
+
+Using a variety of tools attempt to cut drill and grind through the remains of the spark plug, filled as it is with a toughened steel core.
+
+Relalize this is getting now where. 
+
+Curse, blast, damn and decry it. 
+

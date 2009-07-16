@@ -1,0 +1,31 @@
+---
+layout : post
+title : Basecamp Favions
+---
+
+h1. {{ page.title }}
+
+*1999*. Internet Explorer 5 is released and with it introduced the favicon. A graphical icon, that is associated with a website. 
+
+*2009* 10 years later and Basecamp, a web app we use daily (even hourly) at work, still lacks this most basic of identifiers. Why? Who knows. It's not difficult at all, but 37signals seems intent on confusing the icon view of my browser tabs by leaving Basecamp without a favicon. 
+
+So ok, I'm being picky, but it is one of those site's that is _always open_ in firefox. A favicon just makes sense and unlike _every_ other website I keep open all day, I can't quickly scan for it. Great. Thanks Basecamp. Spacecamp.
+
+So. Lets fix it.
+
+You'll need greasemoney installed and then add this script - 
+
+{% highlight javascript %}
+var favicon_link_html = document.createElement('link');
+favicon_link_html.rel = 'icon';
+favicon_link_html.href = 'http://www.37signals.com/images/37.ico';
+favicon_link_html.type = 'image/x-icon';
+try { 
+  document.getElementsByTagName('head')[0].appendChild( favicon_link_html ); 
+}
+catch(e) { }
+{% endhighlight %}
+
+
+Thats it, nothing special _at all_. Come on 37signals, pull your finger out. 
+
