@@ -5,28 +5,41 @@ title : Sensible Git Refspecs
 
 h1. {{ page.title }}
 
+When you do a *git pull*, *fetch*, *push* and some others you need to specify a refspec for the current repository. A refspec describes the mapping between the local reference and the remote one, so you can push (or pull etc) the _master branch head_ and store it as your _origin branch head_. Basically it's a way of mapping branches between repos. 
 
+That's lovely, but depending on what you're working on, it might not always be nessecary. Take for instance this site. It's all stored as a git repo, and transformed in the real site using jekyll. It's only me that's working on it, and for now there's only a single branch, _master_. When pushing changes up I would of done this - 
 
-git config --add push.default current
+{% highlight bash %}
+git push live master
+{% endhighlight %}
 
+Where _live_ is the remote repo, and _master_ is my branch. It'd be nicer to just do -
 
-pleb:funpop will$ git push
+{% highlight bash %}
+git push live
+{% endhighlight %}
+
+and not have to specify the branch. Doing that as it stands will bring back the following :
+
+{% highlight bash %}
 warning: You did not specify any refspecs to push, and the current remote
 warning: has not configured any push refspecs. The default action in this
 warning: case is to push all matching refspecs, that is, all branches
-warning: that exist both locally and remotely will be updated. This may
+warning: that exist both locally and remotely will be updated.  This may
 warning: not necessarily be what you want to happen.
-warning:
+warning: 
 warning: You can specify what action you want to take in this case, and
 warning: avoid seeing this message again, by configuring 'push.default' to:
-warning: 'nothing' : Do not push anything
-warning: 'matching' : Push all matching branches (default)
-warning: 'tracking' : Push the current branch to whatever it is tracking
-warning: 'current' : Push the current branch
-Counting objects: 37, done.
-Delta compression using up to 2 threads.
-Compressing objects: 100% (20/20), done.
-Writing objects: 100% (21/21), 4.58 KiB, done.
-Total 21 (delta 11), reused 0 (delta 0)
-To git@github.com:wjessop/Funpop.git
-e9ca06a..5507c19 master -> master
+warning:   'nothing'  : Do not push anything
+warning:   'matching' : Push all matching branches (default)
+warning:   'tracking' : Push the current branch to whatever it is tracking
+warning:   'current'  : Push the current branch
+{% endhighlight %}
+
+That's not too nice. So to get around having to specify which branch we're on, we can simply add the following to git config - 
+
+{% highlight bash %}
+git config --add push.default current
+{% endhighlight %}
+
+Nicer. But still not quite there. The *pull* will need to be sorted out at some point too.
