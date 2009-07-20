@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Get it together with Jekyll
-categories : 'test'
 published : false
 ---
 

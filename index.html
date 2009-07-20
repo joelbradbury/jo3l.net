@@ -7,20 +7,11 @@ title: Joel Bradbury
 <p>Professionally I'm a developer, during the day working at <a href="http://www.viewcreative.co.uk">View Creative</a> in Conwy, but I do take freelance work if its interesting. I have a degree in Mathematics and could happily spend days talking to myself on some of the nuances of emergent behaviors in complex systems.</p>
 	
 <p>Over time I hope to fill this bit up a bit, with interesting things, but for now, its remarkably sparse, and I make no excuses for that.</p>
-{% assign year = '2010' %}
-{% assign first = true %}
 <div id="home">
   <h2>Journal</h2>
   <ul class="posts">
     {% for post in site.categories.journal reversed %}
-			{% if post.date | date: "%Y" != year %}
-				{% if first %}
-					<ul><li><h3>{% year %}</h3>
-						<ul>
-					{% assign year = post.date | date: "%Y" %}
-				{% endif %}
 				<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-			{% endif %}
 		{% endfor %}
   </ul>
 </div>
