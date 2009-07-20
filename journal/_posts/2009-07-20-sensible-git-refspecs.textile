@@ -1,0 +1,32 @@
+---
+layout : post
+title : Sensible Git Refspecs
+---
+
+h1. {{ page.title }}
+
+
+
+git config --add push.default current
+
+
+pleb:funpop will$ git push
+warning: You did not specify any refspecs to push, and the current remote
+warning: has not configured any push refspecs. The default action in this
+warning: case is to push all matching refspecs, that is, all branches
+warning: that exist both locally and remotely will be updated. This may
+warning: not necessarily be what you want to happen.
+warning:
+warning: You can specify what action you want to take in this case, and
+warning: avoid seeing this message again, by configuring 'push.default' to:
+warning: 'nothing' : Do not push anything
+warning: 'matching' : Push all matching branches (default)
+warning: 'tracking' : Push the current branch to whatever it is tracking
+warning: 'current' : Push the current branch
+Counting objects: 37, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (21/21), 4.58 KiB, done.
+Total 21 (delta 11), reused 0 (delta 0)
+To git@github.com:wjessop/Funpop.git
+e9ca06a..5507c19 master -> master
