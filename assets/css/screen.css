@@ -170,9 +170,11 @@ ul.posts {
       .site .footer .rss img {
         border: 0;
       }
+ p.center { text-align:center;}
  #title #home_extra { color:#333; padding-left:20px;}
  #title:hover #home_extra { color:#aaa;}
  #title #home_extra:hover { color:#fff;}
+ #post table { width: 60%; margin: 0 auto;}
 /*****************************************************************************/
 /*
 /* Posts
