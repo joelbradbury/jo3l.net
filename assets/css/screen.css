@@ -265,3 +265,6 @@ body.about .site { width: 935px; margin-top: 0;}
 #badge .lastfm {	background: url(../images/lastfm.png);	background-repeat: no-repeat; }
 
 #badge .github {	background: url(../images/github.png);	background-repeat: no-repeat;}
+
+body.interlude { background-color: #fff; color:#333; border-top: 7px solid #F0962A;}
+.interlude h1 { color: #333; text-shadow:  -2px -1px 3px #aaaaaa; }

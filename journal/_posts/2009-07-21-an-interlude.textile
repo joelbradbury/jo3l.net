@@ -1,0 +1,31 @@
+---
+layout : post
+title : An Interlude
+body : interlude
+published : false
+---
+
+h1. {{ page.title }}
+
+By way of an impromptu interlude I propose two points of discussion.
+
+h2. Pump or Trump?
+
+Which is the least offensive way of refering to a gaseous emission? 
+
+Initially I would of said _pump_. It's rounder, less agressive and more open to other interpretations. But that's only the first case. Consider _trump_. It's a school yard phrase, and is generally more likely to be used when refering to said *gaseous emission*. Weighing it up:
+
+|_. Pump |_. Trump |
+| Rounder | Harder |
+| Ambiguous | Agressive |
+| Office | School Yard |
+
+Where does that leave us? Well, these things are never cut and dry. Given the choice I would say it would break down to 40% pump, 60% trump, at least for my use cases. Or more succinctly : 
+
+[graph]
+
+h2. How many things would make more sense, presented as in graph form?
+
+That's right. 
+
+All of it.
