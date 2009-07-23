@@ -1,0 +1,23 @@
+---
+layout : post
+title : Its Not What You Do
+body : what_you_do
+---
+
+h1. {{ page.title }}
+
+My "employer":http://viewcreative.co.uk has recently been hiring. We were looking for a junior developer, someone who's not baby-faced-fresh to the whole development thing, but not putting too much emphasis on prior experience. Someone who wants to learn, and can pick new things up. 
+
+As a really quick way to gauge any candidates I asked the following questions :
+
+<blockquote>
+	<p>What text editor do you use?</p>
+	<p>What languages do you use?</p>
+	<p>Tell me something interesting (_anything_).</p>
+</blockquote>
+
+I didn't really care too much about the answer. It's the delivery of the answer that's important. 
+
+If you answer in single words, broken sentences or just seem disinterested I'm done right there. If you answer quickly, talk fast, gesture wildly, you've got my attention. I'm not a recruiter, a manager, or anyone from HR. I'm your peer. Let's have a discussion. 
+
+I don't want to work with boring people, and I'm sure you don't either. I want to be able to get lost in the intricacies of a problem, I want back and forth, above all I want a lively discussion.

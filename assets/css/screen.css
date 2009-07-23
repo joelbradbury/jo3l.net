@@ -270,3 +270,11 @@ body.about .site { width: 935px; margin-top: 0;}
 
 body.interlude { background-color: #fff; color:#333; border-top: 7px solid #F0962A;}
 .interlude h1 { color: #333; text-shadow:  -2px -1px 3px #aaaaaa; }
+
+body.what_you_do { background-color: #3B96CD; border-top:7px solid #FFFFFF; color:#fff;}
+body.what_you_do blockquote { background-color: #fff; color:#2C6A8F;}
+body.what_you_do a,body.what_you_do a:visited, body.what_you_do .site .footer .contact a{ color:#fff; font-weight:bold;}
+body.what_you_do a:hover, body.what_you_do a:focus { color:#AFDDFF;}
+body.what_you_do  ul.posts span  { color: #eee; }
+body.what_you_do .footer { color:#000; }
+body.what_you_do .site .footer .contact a { font-weight:300;}
