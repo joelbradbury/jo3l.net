@@ -1,6 +1,6 @@
 ---
 layout : post
-title : Its Not What You Do
+title : Its What You Do
 body : what_you_do
 ---
 
