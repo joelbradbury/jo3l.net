@@ -1,0 +1,21 @@
+---
+layout: default
+title: Tags
+tags: 
+- Ruby
+- OS X
+- TextMate
+---
+
+#tags
+
+  =header "Tags"
+
+  - site.tags.sort_by {|tag,_| tag.downcase }.each do |tag,posts|
+    .tag
+      %h2.tag{ :id => slug(tag) }=h tag
+      %ul.posts
+        - posts.each do |post|
+          %li
+            %strong.date= post.date.strftime('%b %d, %Y')
+            = post_link(post)
