@@ -1,0 +1,28 @@
+---
+layout : post
+title : Winking
+body : winking
+tags :
+- one
+- two
+---
+
+h1. {{ page.title }}
+
+Times when it is not appropriate to wink :
+* When I don't know you
+* When I know you, but don't like you
+* When it could be misconstrued
+* When we are doing something serious
+* Immediately _after_ referring to a member of the opposite sex
+* Immediately _before_ referring to a member of the opposite sex
+* While enjoying a meal
+* While making eye contact
+* When facing directly towards me
+* When nearby me
+* All other times
+
+
+When it might be appropriate : 
+
+h2. Never

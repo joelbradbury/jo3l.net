@@ -2,6 +2,9 @@
 layout : post
 title : Add Some Color to Git and Svn
 body : add_some_color
+tags :
+- one
+- two
 ---
 
 h1. {{ page.title }}

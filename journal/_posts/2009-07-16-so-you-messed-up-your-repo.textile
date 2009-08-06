@@ -1,6 +1,9 @@
 ---
 layout : post
 title : So You Messed Up Your Repo
+tags :
+- one
+- two
 ---
 
 h1. {{ page.title }}

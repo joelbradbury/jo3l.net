@@ -3,6 +3,9 @@ layout : post
 title : An Interlude
 body : interlude
 published : true
+tags :
+- one
+- two
 ---
 
 h1. {{ page.title }}

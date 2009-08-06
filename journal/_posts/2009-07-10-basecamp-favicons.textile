@@ -1,6 +1,9 @@
 ---
 layout : post
 title : Basecamp Favions
+tags :
+- one
+- two
 ---
 
 h1. {{ page.title }}

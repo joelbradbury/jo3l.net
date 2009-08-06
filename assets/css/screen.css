@@ -233,6 +233,15 @@ ul.posts {
 p.footnote { margin-top:20px; font-size:90%; color:#888;}
 p.footnote:hover, p.footnote:target { background-color: #111; color: #CCC;}
 /* specifics */
+ol#tag-cloud { margin-bottom: 35px; }
+ol#tag-cloud li { display: inline; line-height: 150%; }
+ol#tag-cloud li a { padding: 2px; }
+ol#tag-cloud li.tier-1 { font-size: 75%; }
+ol#tag-cloud li.tier-2 { font-size: 90%; }
+ol#tag-cloud li.tier-3 { font-size: 105%; }
+ol#tag-cloud li.tier-4 { font-size: 120%; }
+ol#tag-cloud li.tier-5 { font-size: 135%; }
+ol#tag-cloud li.tier-6 { font-size: 150%; }
 
 /* war */
 body.war_over { 
@@ -278,3 +287,5 @@ body.what_you_do a:hover, body.what_you_do a:focus { color:#AFDDFF;}
 body.what_you_do  ul.posts span  { color: #eee; }
 body.what_you_do .footer { color:#000; }
 body.what_you_do .site .footer .contact a { font-weight:300;}
+
+body.winking { background-color: #aaa; color: #000;}
