@@ -243,6 +243,14 @@ ol#tag-cloud li.tier-4 { font-size: 120%; }
 ol#tag-cloud li.tier-5 { font-size: 135%; }
 ol#tag-cloud li.tier-6 { font-size: 150%; }
 
+/* Lists */
+div.year { margin-bottom: 60px; }
+div.year:last-child { margin-bottom: 0; }
+div.year h2.year { color: #888; float: left; margin: 0.2em 0 0 -3em; font-size: 250%; }
+div.year h3.month, div.year h2.tag { margin-top: 0; }
+
+
+
 /* war */
 body.war_over { 
 	background: transparent url(http://www.berttimmermans.com/wp-content/themes/BertTimmermans/img/main_bg.jpg) repeat scroll 0 0;
