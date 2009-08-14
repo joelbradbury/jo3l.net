@@ -39,6 +39,10 @@ h1 {
 	color:#eee;
 	line-height:100%;
 }
+.header h1 { font-family: "Chaparral Pro"; font-size:30px; font-weight:400;}
+.header h1 a { color:#fff;}
+.header h1 span { font-family: "Helvetica Neue"; font-size: 14px; text-shadow:none; padding-left:10px; font-weight:200;}
+.header { clear:both; }
 h2 { font-size : 24px;}
 
 p {
@@ -70,6 +74,9 @@ blockquote {
 	}
 em { font-weight: bold;}
 
+div.wrap.header { background:#1F170D;}
+div.wrap.header div { padding-top: 90px; padding-bottom: 20px;}
+div.wrap div { text-align:left; width:40em; margin: 0 auto;}
 /*****************************************************************************/
 /*
 /* Home
@@ -98,11 +105,9 @@ ul.posts {
 /*
 /*****************************************************************************/
 
-.site {
+.wrap {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
-  margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
 
@@ -115,31 +120,31 @@ ul.posts {
   border-bottom: 1px solid #333;	
 }
 
- .site #title a {
+ .wrap #title a {
 	color:#000;
    text-decoration: none;
 	margin-bottom:40px;
  }
  #title a.hello { display:block;}
-  .site #title a:hover {
+  .wrap #title a:hover {
     color: #eee;
   }
 
-  .site #title a.extra {
+  .wrap #title a.extra {
     color: #aaa;
     text-decoration: none;
     margin-left: 1em;
   }
 
-  .site #title a.extra:hover {
+  .wrap #title a.extra:hover {
     color: black;
   }
 
-  .site .meta {
+  .wrap .meta {
     color: #aaa;
   }
 
-  .site .footer {
+  .wrap .footer {
     font-size: 80%;
     color: #666;
     border-top: 1px solid #333;
@@ -147,27 +152,27 @@ ul.posts {
     overflow: hidden;
   }
 
-    .site .footer .contact {
+    .wrap .footer .contact {
       float: left;
  			width : 30%;
     }
-		.site .footer .blurb {
+		.wrap .footer .blurb {
       float: left;
  			width : 65%;
 			margin-right:5%;
     }
 
-      .site .footer .contact a {
+      .wrap .footer .contact a {
         color: #8085C1;
       }
 
-    .site .footer .rss {
+    .wrap .footer .rss {
       margin-top: 1.1em;
       margin-right: -.2em;
       float: right;
     }
 
-      .site .footer .rss img {
+      .wrap .footer .rss img {
         border: 0;
       }
  p.center { text-align:center;}
@@ -269,7 +274,7 @@ body.war_over {
 .war_over .footer { color: #333;}
 
 /* about */
-body.about .site { width: 935px; margin-top: 0;}
+body.about .wrap { width: 935px; margin-top: 0;}
 .about h1 { font-size: 30px; padding-top:25px; font-weight:200;}
 .about .cols { -moz-column-count: 2; -moz-column-gap: 30px;}
 .about { background : #302D28 url(/assets/images/about_body.jpg) repeat scroll 0 0; border-top:7px solid #3F3B33;}
@@ -290,10 +295,10 @@ body.interlude { background-color: #fff; color:#333; border-top: 7px solid #F096
 
 body.what_you_do { background-color: #3B96CD; border-top:7px solid #FFFFFF; color:#fff;}
 body.what_you_do blockquote { background-color: #fff; color:#2C6A8F;}
-body.what_you_do a,body.what_you_do a:visited, body.what_you_do .site .footer .contact a{ color:#fff; font-weight:bold;}
+body.what_you_do a,body.what_you_do a:visited, body.what_you_do .wrap .footer .contact a{ color:#fff; font-weight:bold;}
 body.what_you_do a:hover, body.what_you_do a:focus { color:#AFDDFF;}
 body.what_you_do  ul.posts span  { color: #eee; }
 body.what_you_do .footer { color:#000; }
-body.what_you_do .site .footer .contact a { font-weight:300;}
+body.what_you_do .wrap .footer .contact a { font-weight:300;}
 
 body.winking { background-color: #aaa; color: #000;}

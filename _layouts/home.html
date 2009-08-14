@@ -11,26 +11,30 @@
 	 <link href="/assets/images/favicon.gif" rel="shortcut icon" type="image/ico" />
 </head>
 <body class="home">
-	<div class="site">
-		<div class="context">
-  	<div id="title">
-			<h1><a class="hello" href="/">Hello</a>My Name's Joel</h1>
+	<div class="wrap header">
+		<div>
+			<h1><a href="/">jo3l</a><span>an internet webbed-site</span></h1>
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="body">
+			{{ content }}
+		</div>
+	</div>
+	<div class="wrap">
+		<div class="footer">
+	    <div class="blurb">
+			<p>My name's Joel Bradbury. Professionally I push bits around, to make other bits do things people want. Personally, I do pretty much the same. If you feel motivated to, email me : mail@[[this.domain]] <a href="/about">about</a></p>
+	    </div>
+	    <div class="contact">
+	      <p>
+	        <a href="http://github.com/joelbradbury/">github.com/joelbradbury</a><br />
+	        <a href="http://twitter.com/joelbradbury/">twitter.com/joelbradbury</a><br />
+	        <a href="http://flickr.com/photos/joelbradbury/">flickr.com/photos/joelbradbury</a>
+	      </p>
+	    </div>
 	  </div>
-
-	  {{ content }}
-  
-  <div class="footer">
-    <div class="blurb">
-		<p>My name's Joel Bradbury. Professionally I push bits around, to make other bits do things people want. Personally, I do pretty much the same. If you feel motivated to, email me : mail@[[this.domain]] <a href="/about">about</a></p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="http://github.com/joelbradbury/">github.com/joelbradbury</a><br />
-        <a href="http://twitter.com/joelbradbury/">twitter.com/joelbradbury</a><br />
-        <a href="http://flickr.com/photos/joelbradbury/">flickr.com/photos/joelbradbury</a>
-      </p>
-    </div>
-  </div>
+	
 </div>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
