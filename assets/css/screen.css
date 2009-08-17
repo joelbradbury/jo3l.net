@@ -17,8 +17,7 @@ html, body {
 }
 
 body {
-	border-top:7px solid #333;
-  background-color: #222;
+  background: #222 url(/assets/images/bg.jpg);
   color:#ccc;
   font: 13.34px 'Helvetica Neue', helvetica, arial, clean, sans-serif;
   *font-size: small;
@@ -39,9 +38,12 @@ h1 {
 	color:#eee;
 	line-height:100%;
 }
-.header h1 { font-family: "Chaparral Pro"; font-size:30px; font-weight:400;}
-.header h1 a { color:#fff;}
-.header h1 span { font-family: "Helvetica Neue"; font-size: 14px; text-shadow:none; padding-left:10px; font-weight:200;}
+ .home .header h1#home { font-size:30px;}
+ .home .header h1#home span { font-size: 14px; }
+ .header h1#home { font-family: "Chaparral Pro"; font-size:22px; font-weight:400;}
+ .header h1#home a { font-weight:400; color:#fff;}
+ .header h1#home span { font-family: "Helvetica Neue"; font-size: 12px; text-shadow:none; padding-left:10px; font-weight:200; color:#fff;}
+
 .header { clear:both; }
 h2 { font-size : 24px;}
 
@@ -74,8 +76,10 @@ blockquote {
 	}
 em { font-weight: bold;}
 
-div.wrap.header { background:#1F170D;}
-div.wrap.header div { padding-top: 90px; padding-bottom: 20px;}
+div.wrap.header { background:#1F170D url(/assets/images/bgh.jpg);}
+.home .wrap.header div { padding-top: 90px; padding-bottom: 20px;}
+div.wrap .year { width: 25em;}
+
 div.wrap div { text-align:left; width:40em; margin: 0 auto;}
 /*****************************************************************************/
 /*
@@ -97,7 +101,7 @@ ul.posts {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
-#home { padding-top:40px;}
+.home #home { padding-top:40px;}
 #home h2 { padding-bottom: 18px;}
 /*****************************************************************************/
 /*
@@ -150,6 +154,7 @@ ul.posts {
     border-top: 1px solid #333;
     margin-top: 2em;
     overflow: hidden;
+		width: 50em;
   }
 
     .wrap .footer .contact {
@@ -189,6 +194,7 @@ ul.posts {
 #post {
 	padding-bottom:40px;
 	border-bottom: 1px solid #333;
+	margin-top:20px;
 }
 
   /* standard */
@@ -251,34 +257,15 @@ ol#tag-cloud li.tier-6 { font-size: 150%; }
 /* Lists */
 div.year { margin-bottom: 60px; }
 div.year:last-child { margin-bottom: 0; }
-div.year h2.year { color: #888; float: left; margin: 0.2em 0 0 -3em; font-size: 250%; }
-div.year h3.month, div.year h2.tag { margin-top: 0; }
-
-
-
-/* war */
-body.war_over { 
-	background: transparent url(http://www.berttimmermans.com/wp-content/themes/BertTimmermans/img/main_bg.jpg) repeat scroll 0 0;
-	border-top: 7px solid rgba(154, 128, 79, 0.9);
-	color:#333;}
-.war_over h1 { 
-	color: #AB231D;
-	text-align: center;
-	font-weight: lighter;
-	font-size:40px;
-	text-shadow :1px 1px 3px #FFFFFF, -2px -1px 3px #A2231F;line-height:75%;}
-.war_over h1 span.main { display:block; font-weight:bold; font-size: 108px; line-height:75%;}
-.war_over ul.posts span { color: #555; }
-.war_over a,.war_over .footer .contact a  { color:#aa1111; }
-.war_over a:visited,.war_over .footer .contact a:visited { color : #ee1111;}
-.war_over .footer { color: #333;}
+div.year h2.year { color: #888; float: left; margin: 0.2em 0 0 -3em; font-size: 250%; width: 100px; text-shadow:1px 1px 3px #000000;}
+div.year h3.month, div.year h2.tag { margin-top: 0; text-shadow:1px 1px 3px #000000;}
 
 /* about */
-body.about .wrap { width: 935px; margin-top: 0;}
-.about h1 { font-size: 30px; padding-top:25px; font-weight:200;}
+.about h1 { font-size: 30px; font-weight:200;}
 .about .cols { -moz-column-count: 2; -moz-column-gap: 30px;}
-.about { background : #302D28 url(/assets/images/about_body.jpg) repeat scroll 0 0; border-top:7px solid #3F3B33;}
+.about { background : #302D28 url(/assets/images/about_body.jpg) repeat scroll 0 0;}
 .about #title { margin-top : 3em; border:none; margin-bottom: 0; padding-bottom:0;}
+.about img { margin-left: -167px;  -moz-box-shadow : 0px 0px 10px 2px #111111; margin-top:-30px;}
 
 #badge .badges { display: block; height: 43px; }
 #badge li {	float: left;	list-style: none; }
@@ -290,10 +277,10 @@ body.about .wrap { width: 935px; margin-top: 0;}
 
 #badge .github {	background: url(../images/github.png);	background-repeat: no-repeat;}
 
-body.interlude { background-color: #fff; color:#333; border-top: 7px solid #F0962A;}
-.interlude h1 { color: #333; text-shadow:  -2px -1px 3px #aaaaaa; }
+body.interlude { background: #fff; color:#333;}
+.interlude h1 { color: #333; }
 
-body.what_you_do { background-color: #3B96CD; border-top:7px solid #FFFFFF; color:#fff;}
+body.what_you_do { background: #3B96CD; color:#fff;}
 body.what_you_do blockquote { background-color: #fff; color:#2C6A8F;}
 body.what_you_do a,body.what_you_do a:visited, body.what_you_do .wrap .footer .contact a{ color:#fff; font-weight:bold;}
 body.what_you_do a:hover, body.what_you_do a:focus { color:#AFDDFF;}
@@ -301,4 +288,7 @@ body.what_you_do  ul.posts span  { color: #eee; }
 body.what_you_do .footer { color:#000; }
 body.what_you_do .wrap .footer .contact a { font-weight:300;}
 
-body.winking { background-color: #aaa; color: #000;}
+body.winking { background: #aaa; color: #000;}
+
+.about #home #nav_about:focus, .archives #home #nav_archives:focus, .tags #home #nav_tags:focus { outline:none; color:#213726; }
+.about #home #nav_about, .archives #home #nav_archives,.tags #home #nav_tags, #home #nav_home:focus { outline:none;color:#3D7F4E;}
