@@ -76,9 +76,9 @@ blockquote {
 	}
 em { font-weight: bold;}
 
-div.wrap.header { background:#1F170D url(/assets/images/bgh.jpg);}
+div.wrap.header { background:#15140F url(/assets/images/bgh.jpg);}
 .home .wrap.header div { padding-top: 90px; padding-bottom: 20px;}
-div.wrap .year { width: 25em;}
+div.wrap .year, div.wrap .tag { width: 25em;}
 
 div.wrap div { text-align:left; width:40em; margin: 0 auto;}
 /*****************************************************************************/
@@ -259,6 +259,12 @@ div.year { margin-bottom: 60px; }
 div.year:last-child { margin-bottom: 0; }
 div.year h2.year { color: #888; float: left; margin: 0.2em 0 0 -3em; font-size: 250%; width: 100px; text-shadow:1px 1px 3px #000000;}
 div.year h3.month, div.year h2.tag { margin-top: 0; text-shadow:1px 1px 3px #000000;}
+
+
+div.tag { margin-bottom: 60px; }
+div.tag:last-child { margin-bottom: 0; }
+div.tag h2.tag { color: #888; float: left; margin: 0.2em 0 0 -3em; font-size: 250%; width: 100px; text-shadow:1px 1px 3px #000000;}
+div.tag h3.tag, div.tag h2.tag { margin-top: 0; text-shadow:1px 1px 3px #000000;}
 
 /* about */
 .about h1 { font-size: 30px; font-weight:200;}

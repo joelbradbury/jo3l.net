@@ -4,6 +4,7 @@ title : An older post
 tags :
 - one
 - two
+published: false
 ---
 
 h1. {{ page.title }}
