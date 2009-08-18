@@ -1,0 +1,21 @@
+---
+layout: home
+title: Joel Bradbury
+---
+<div class="blurb">
+<p>I live in North Wales with my wife <a href="http://flickr.com/photos/gemmabradbury">Gemma</a> and my dog, <a href="http://www.flickr.com/photos/gemmabradbury/sets/72157617508065557/">Mr Jones</a>.</p>
+
+<p>Professionally I'm a developer, during the day working at <a href="http://www.viewcreative.co.uk">View Creative</a> in Conwy, but I do take freelance work if its interesting. I have a degree in Mathematics and could happily spend days talking to myself on some of the nuances of emergent behaviors in complex systems</p>
+</div>
+
+- site.collated_posts.sort.reverse.each do |year,months|
+  .year
+    %h2.year= year
+    - months.sort.reverse.each do |month,days|
+      %h3.month= Date::MONTHNAMES[month]
+      %ul.posts
+        - days.sort.reverse.each do |day,posts|
+          - posts.each do |post|
+            %li
+              %strong.date= "%02d" % day
+              = post_link(post)
