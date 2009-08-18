@@ -17,7 +17,7 @@
 <body class="{{ page.body }}">
 	<div class="wrap header">
 		<div>
-			<h1 id="home"><a href="/">jo3l</a><span><a href="/about.html">about</a> . <a href="/archives.html">archives</a> . <a href="/tags.html">tags</a> . <a href="{{ page.previous.url }}"><</a>  <a href="{{ page.next.url }}">></a></span></h1>
+			<h1 id="home"><a href="/">jo3l</a><span><a id="nav_about" href="/about.html">about</a> <a id="nav_archives" href="/archives.html">archives</a> {% if page.previous.url != '' %}<a id="nav_prev" href="{{ page.previous.url }}"><</a>{% endif %}  {% if page.next.url != '' %}<a id="nav_next" href="{{ page.next.url }}">></a>{% endif %}</span></h1>
 		</div>
 	</div>
 	<div class="wrap">

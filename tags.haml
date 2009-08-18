@@ -5,9 +5,6 @@ body : tags
 ---
 
 #tags
-
-  =header "Tags"
-
   - site.tags.sort_by {|tag,_| tag.downcase }.each do |tag,posts|
     .tag
       %h2.tag{ :id => slug(tag) }=h tag

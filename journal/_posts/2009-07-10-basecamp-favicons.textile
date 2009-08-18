@@ -2,8 +2,8 @@
 layout : post
 title : Basecamp Favions
 tags :
-- one
-- two
+- greasemonkey
+- basecamp
 ---
 
 h1. {{ page.title }}

@@ -3,8 +3,7 @@ layout : post
 title : Winking
 body : 
 tags :
-- one
-- two
+- bodilyfunctions
 ---
 
 h1. {{ page.title }}

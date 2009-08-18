@@ -4,8 +4,7 @@ title : An Interlude
 body : interlude
 published : true
 tags :
-- one
-- two
+- bodily function
 ---
 
 h1. {{ page.title }}

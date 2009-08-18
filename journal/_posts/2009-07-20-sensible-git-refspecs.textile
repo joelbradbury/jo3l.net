@@ -2,8 +2,7 @@
 layout : post
 title : Sensible Git Refspecs
 tags :
-- one
-- two
+- git
 ---
 
 h1. {{ page.title }}

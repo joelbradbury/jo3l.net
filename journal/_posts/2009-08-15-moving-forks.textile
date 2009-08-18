@@ -2,8 +2,8 @@
 layout : post
 title : Moving forks
 tags :
-- one
-- two
+- git
+- fork
 published: false
 ---
 

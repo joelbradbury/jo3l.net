@@ -3,8 +3,8 @@ layout : post
 title : Add Some Color to Git and Svn
 body : add_some_color
 tags :
-- one
-- two
+- git
+- terminal
 ---
 
 h1. {{ page.title }}

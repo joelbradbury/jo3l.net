@@ -5,21 +5,21 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Joel Bradbury</title>
- <link href="http://joelbradbury.net/atom.xml" rel="self"/>
- <link href="http://joelbradbury.net/"/>
+ <link href="http://jo3l.net/atom.xml" rel="self"/>
+ <link href="http://jo3l.net/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://joelbradbury.net/</id>
+ <id>http://jo3l.net/</id>
  <author>
    <name>Joel Bradbury</name>
-   <email>mail@joelbradbury.net</email>
+   <email>mail@jo3l.net</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://joelbradbury.net{{ post.url }}"/>
+   <link href="http://jo3l.net{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http:/joelbradbury.net{{ post.id }}</id>
+   <id>http:/jo3l.net{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

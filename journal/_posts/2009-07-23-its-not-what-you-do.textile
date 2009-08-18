@@ -3,12 +3,8 @@ layout : post
 title : Its What You Do
 body : what_you_do
 tags :
-- one
-- two
-- three
-- four
-- five
-- six
+- interview
+- job
 ---
 
 h1. {{ page.title }}
