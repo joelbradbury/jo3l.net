@@ -1,18 +1,15 @@
-h1. This is the underlying data for my blog
+h1. You've found the data for jo3l.net and joelbradbury.net
 
-Using "Jekyll":http://github.com/mojombo/jekyll it gets turned into a static site, when after a push up to github
+It's all just a set of flat files that use a combination of henrik's "Jekyll":http://github.com/henrik/jekyll fork and git to get magically turned into a site.
 
-It's all just a way of getting closer to the content without loosing the flexibility. I don't need some fancy control panel to tell me how to markup my posts, and I defiantly don't need some clever script tidying up my markup.
+Using henrik's fork allows arbitrary code execution (here in the form of _helpers.rb and lib/slugalizer.rb). It enabled use of HAML for templating, which can be used to get around some of the limitations of liquid templating - ie. more control over how the archive's get spit out, pretty pretty tags, and just general nice things. 
 
-I don't want to loose my data, by tied to anyone place, or operating system. Once I've written something, it's still mine, and i want the ability to change anything I want, at any time. 
+It's not perfect, and I'm not completely down with haml yet. Still, given the right includes, you can use haml and liquid side by side, so its almost all gain. The hope is that I can make this site something I'm proud of, both content wise, and technologically, a portfolio of skills if you will. 
 
-I can't take any of the credit for any of this, it was all made by far more motivated men.
+I don't take any credit for this, it was all made by far more motivated men.
 
 h2. License
 
-You can fork this site at any point. Hell, you can even download the whole thing as a tar, but if you do, the content of the following directories are Copyright Joel Bradbury. If you want to reuse anything in them, ask for my permission first. I'll doubtless say yes, but don't be a dick about it. 
-
-* _posts/
-* images.
-
-Everything else is far game, and by far game, I mean MIT licensed. The original setup was forked from http://github.com/mojombo/jekyll so have a look there if you'd like to see further up the tree. Take the html, css and javascript and do whatever you please (though preferably not in exactly the format they are now). If you use them, let me know, or a link back would be just lovely. And you are a lovely person aren't you. 
+Feel free to fork this site at any point. Download the whole thing if you want, but content within *journal/_posts* are copyrighted to me. If you want to use them, just ask, but don't be a dick about it. 
+ 
+Everything else is far game, and by far game, I mean MIT licensed. The original setup was forked from http://github.com/mojombo/jekyll so have a look there if you'd like to see further up the tree. Later on, I forked my setup from http://github.com/henrik/jekyll for the buzz of using haml. Take the html, css and javascript and do whatever you please (though preferably not in exactly the format they are now). If you use them, let me know, or a link back would be just lovely. And you are a lovely person aren't you.
