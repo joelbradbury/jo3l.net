@@ -1,0 +1,38 @@
+---
+layout : post
+title : Jekyll
+tags : 
+- jekyll
+- git
+published : false
+---
+
+h1. {{ page.title }}
+
+intro
+When it comes to developing your own site, it's very easy to get lost with over reaching ideas and fantasies. "_I could have this, and that and that other thing, and it'll be really great, I'll be able to do _anything_ _". Yeah right. Do that, and you'll never get off the ground.
+
+My rule of thumb is such : *Drop _everything_ you don't need. Then drop a bit more*. 
+
+It's amazing. There's lots of things I'd like to do with this site, but there's really no point in building in functionality until I really need it. Almost like *just-in-time development*. And I've gotta say, it seems to be working so far.
+
+Following this quest for simplicity, this site is generated using Jekyll. 
+
+It's a _tiny_ bit of ruby code, that converts liquid and haml(1) templates, runs things through textile and markdown(2) filters and spits out an entirely static site. 
+
+
+
+
+ 
+
+what is jekyll
+
+why jekyll
+
+setup
+
+deployment
+
+fork me
+
+
