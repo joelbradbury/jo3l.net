@@ -4,35 +4,40 @@ title : Jekyll
 tags : 
 - jekyll
 - git
-published : false
+published : true
 ---
 
 h1. {{ page.title }}
 
-intro
-When it comes to developing your own site, it's very easy to get lost with over reaching ideas and fantasies. "_I could have this, and that and that other thing, and it'll be really great, I'll be able to do _anything_ _". Yeah right. Do that, and you'll never get off the ground.
+When it comes to developing for yourself, it's very easy to get lost with over reaching ideas and fantasies. "_I could have this, and that and that other thing, and it'll be really great, I'll be able to do anything_". Yeah right. Do that, and you'll never get off the ground.
 
-My rule of thumb is such : *Drop _everything_ you don't need. Then drop a bit more*. 
+As a rule of thumb:
 
-It's amazing. There's lots of things I'd like to do with this site, but there's really no point in building in functionality until I really need it. Almost like *just-in-time development*. And I've gotta say, it seems to be working so far.
+<blockquote>
+	Drop _everything_ you don't need. Then drop a bit more
+</blockquote>
 
-Following this quest for simplicity, this site is generated using Jekyll. 
+It's amazing. There's lots of things I'd like to do with this site, but there's really no point in building in functionality until I really need it. Kind of *just-in-time development*. And I've gotta say, it seems to be working so far.
 
-It's a _tiny_ bit of ruby code, that converts liquid and haml(1) templates, runs things through textile and markdown(2) filters and spits out an entirely static site. 
+Following this quest for simplicity, this site is generated using "Jekyll":http://github.com/mojombo/jekyll/tree/master.
 
+It's a _tiny_ bit of ruby code, that converts liquid and haml("1":#fn1) templates, runs content through textile and markdown("2":#fn2) filters and spits out an entirely static site. 
 
+The site is kept in flat files, in a "git repository":http://github.com/joelbradbury/jo3l.net/tree/master. There's no databases to worry about, and zero server configurations to worry about (beyond setting up some optional post-receive hooks), basically _any_ server that can serve html (read: _all of them_).
 
+The flat files that are used to generate the site are separated out into "_layout":http://github.com/joelbradbury/jo3l.net/tree/23792ecf073c658c00cb3b2b957707fec194f324/_layouts and "_posts":http://github.com/joelbradbury/jo3l.net/tree/23792ecf073c658c00cb3b2b957707fec194f324/journal/_posts folders, which contain either the abstracted layouts of the site or the marked down content of the site. It's all rather well organized. For a better look at the underlying structure, you can check out the "repository on github":http://github.com/joelbradbury/jo3l.net/tree/master, and feel free to fork it too. 
 
- 
+h2. Setup
 
-what is jekyll
+So, all the data for my site is kept in flat files, in a git repo on my various machines. When I've made a change I simply commit it, and then push to the relevant external repository. There are actually 3 different ones I personally push to: origin (github), stage (on my dreamhost server) and live ("here":http://jo3l.net).
 
-why jekyll
-
-setup
-
-deployment
-
-fork me
+After I've pushed to either stage or live, a post-receive hook re-runs jekyll server side and regenerates the site. Tada - everything live and working with nothing more than a *git push live*. How very pleasant.
 
 
+
+h4. Footnotes
+
+p(footnote#fn1). 1. "Henrik's jekyll":http://github.com/henrik/jekyll/tree/master fork brings "haml":http://haml-lang.com/ (and "sass":http://sass-lang.com/) 
+
+
+p(footnote#fn2). 2. Likewise, henrik's fork brings markdown as well.
