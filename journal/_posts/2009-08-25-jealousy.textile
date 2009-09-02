@@ -1,0 +1,17 @@
+---
+layout : post
+title : Jealousy
+published: false
+---
+
+h1. {{ page.title }}
+
+h2. the great motivator
+
+When I see epic works of web design just as "Gregory Wood":http://gregorywood.co.uk and "Jason Santa Maria":http://jasonsantamaria.com and "Eliot Jay Stocks":http://eliotjaystocks.com I can't help but feel <span class="jealous">Jealous</span>. It's an entirely naturaly reaction to such epic displays of web design mastery.
+
+You'd be seriously jaded not to appreciate the work that goes into designing each indivdual post, as works of art. You could compare it to showing off you're feathers. And it's got me ruffled. 
+
+I'm a developer. I count myself as pretty good at what I do. But that's really quite subjective. The only way to show that I'm as good as I think I am is to prove it. To do that I need to _show off a bit_. *Designing* each page individually is perfect for that. So that's what I'm going to do. 
+
+Hopefully.

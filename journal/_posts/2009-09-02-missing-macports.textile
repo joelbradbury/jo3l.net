@@ -1,0 +1,22 @@
+---
+layout : post
+title : sudo port command not found
+tags : 
+- osx
+- dev
+- bash
+---
+
+h1. sudo port : command not found
+
+Seriously - what's up with that? I know macports is installed, I used it just the other day. 
+
+To fix it three quick lines that re-add the paths to your .bash_profile
+
+{% highlight bash %}
+export PATH=$PATH:/opt/local/bin
+export MANPATH=$MANPATH:/opt/local/share/man
+export INFOPATH=$INFOPATH:/opt/local/share/info
+{% endhighlight %}
+
+That will stick the right paths in the right places, and we're back on track. Run a *sudo port -d selfupdate* just to be sure and move on with your life. 
