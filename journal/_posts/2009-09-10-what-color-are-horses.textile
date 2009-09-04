@@ -1,0 +1,44 @@
+---
+layout: post
+title: What Color are Horses?
+published : false
+---
+
+h1. {{ page.title }}
+
+I don't own a horse. I have only ever ridden on one when I was younger, closer to the age of 6 or 7. The horse I rode on was white. Being a mathematician I can prove this to you. So lets go:
+
+*Lemma 1* All horses are the same color
+
+*Proof*
+
+<blockquote>
+Clearly one horse is the same color. Thus, lets assume the proposition <strong><span style="color: blue;">P(k)</span></strong> that <strong><span style="color: blue;">k</span></strong> horses are the same color. By induction we can imply that <strong><span style="color: blue;">k+1</span></strong> horses are the same color. From a set of <strong><span style="color: blue;">k+1</span></strong> horses we can remove one horse, and the remaining <strong><span style="color: blue;">k</span></strong> horses will be the same color, by hypothesis.
+
+We remove another horse and replace the first, thus the <strong><span style="color: blue;">k</span></strong> horses are the same color, again by hypothesis. By induction we can repeat for the whole set of k horses, thus it follows that all k horses are the same color, as<strong><span style="color: blue;">P(k) =&gt; P(k+1).</span></strong>
+
+As <span style="color: blue;"><strong>P(1)</strong></span> is true, by initial conditions (the horse I rode as a child), <strong><span style="color: blue;">P</span></strong> holds true for all subsequent values of <span style="color: blue;"><strong>k</strong></span>. <strong>[]</strong></blockquote>
+Theorem 1. Every horse has an infinite number of legs.
+
+*Proof*
+
+<blockquote>The horse I rode as a child had an <span style="color: blue;"><strong>even</strong></span> number of legs. Of the legs, there were <strong><span style="color: blue;">two</span></strong> front legs, with <strong><span style="color: blue;">fore</span></strong> legs remaining. That gave it <strong><span style="color: blue;">6</span></strong> legs, which is an <strong><span style="color: blue;">odd</span></strong> number of legs for a horse. The only number that is both <strong><span style="color: blue;">odd</span></strong> and <span style="color: blue;"><strong>even</strong></span> is <strong><span style="color: blue;">infinity</span></strong>. Thus, my horse had an <strong><span style="color: blue;">infinite</span></strong> number of legs.
+
+To show that all horses have an infinite number of legs, lets assume the inverse. Thus there is a horse somewhere with a <strong><span style="color: blue;">finite</span></strong> number of legs. By example, this horse is pictured below:
+<p align="center"><a title="the mythical brown, finited legged horse" rel="lightbox" href="http://www.bottledcity.com/wp-content/uploads/2007/01/news98.jpg"><img src="http://www.bottledcity.com/wp-content/uploads/2007/01/news98-small.jpg" alt="news98" width="450" height="258" /></a></p>
+
+Clearly this horse does not have an infinite number of legs. But this horse is brown, not white in color, and so, by<span style="color: blue;"><span style="color: green;"><strong>Lemma 1</strong></span>,</span> does not exist. <strong>=&gt;&lt;= []</strong></blockquote>
+
+*Corollary 1* Everything is the same color.
+
+*Proof*
+
+<blockquote><strong><span style="color: green;">Lemma 1</span></strong> can be generalized as the proof by induction is object independent. Hence, the statement "For all <strong><span style="color: blue;">x</span></strong>, if <strong><span style="color: blue;">x</span></strong> is a horse, <strong><span style="color: blue;">x</span></strong> will be the same color", can be generalized to "For all <strong><span style="color: blue;">x</span></strong>, <span style="color: blue;"><strong>x</strong></span> will be the same color". Thus proof of the single color of horses is simply a special case of this. <strong>[]</strong></blockquote>
+
+*Corollary 2* Everything is white.
+
+*Proof*
+
+<blockquote>If a sentential formula in <strong><span style="color: blue;">x</span></strong> is logically valid, then any particular substitution instance of it, is also a true statement. By personal experience it is evident that white horses exist. Therefore all horses are white. Hence, by <strong><span style="color: green;">corollary 1</span></strong>, everything is white. <strong>[]</strong></blockquote>
+
+So there you have it. Clear, reasoned proof that <strong><span style="color: maroon;">all horses have an infinite number of legs</span></strong> and that <strong><span style="color: maroon;">everything is white</span></strong>.

@@ -31,7 +31,7 @@ also,
 
 <p align="center"><img height="27" alt="eqn6239 2" src="/assets/images/eq2.png" width="421" /></p>
 
-We can assume that the difference between the specific heats of the coffee and milk are negligle, hence if we add milk at temperature M, to coffee at temperature C, the resulting mix has a temperature of aM+bC, where a and b are constants between 0 and 1, with a+b=1. (ie. the a and b are the relative volumes of milk and coffee of the final volume)
+We can assume that the difference between the specific heats of the coffee and milk are negligible, hence if we add milk at temperature M, to coffee at temperature C, the resulting mix has a temperature of aM+bC, where a and b are constants between 0 and 1, with a+b=1. (ie. the a and b are the relative volumes of milk and coffee of the final volume)
 
 So, lets assign some variables.
 
