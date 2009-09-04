@@ -1,0 +1,82 @@
+---
+layout: post
+title : When to Add Milk to Coffee
+---
+
+h1. {{ page.title }}
+
+Heres the situation - you have a _hot black cup of coffee_. You like your coffee hot, *but* you also like it *with milk*. 
+
+You want your coffee as hot as possible. So :
+
+<blockquote>
+<p>For the hottest possible drink, when do you add your milk :</p>
+<p align="center">_Right Away_ or _Last Minute_?</p>
+</blockquote>
+
+
+You are not going to be drinking the coffee right away, so the question becomes : should you add the milk now or just before you drink it in order to have the coffee at its hottest.
+
+h2. Enter maths.
+
+Lets make some initial conditions and normalize our temperature scale to room temp., ie. 0 degrees = room temperature.
+
+Now assuming this is an ordinary mug the coffee is in, nothing special will happen in the cooling. Thus we can assume that the coffee will cool at a proportional rate to the temperature difference between it and the room temp. Further to that, the amount of milk added is small enough to not affect that rate.
+
+Some quick calculus will show how the coffee temperature decays exponentially over time, ie.
+
+<p align="center"><img height="31" alt="eqn6239" src="/assets/images/eq1.png" width="392" /></p>
+
+also,
+
+<p align="center"><img height="27" alt="eqn6239 2" src="/assets/images/eq2.png" width="421" /></p>
+
+We can assume that the difference between the specific heats of the coffee and milk are negligle, hence if we add milk at temperature M, to coffee at temperature C, the resulting mix has a temperature of aM+bC, where a and b are constants between 0 and 1, with a+b=1. (ie. the a and b are the relative volumes of milk and coffee of the final volume)
+
+So, lets assign some variables.
+
+We can denote the starting coffee temperature by C, and the starting milk temperature by M. Hence -
+<p align="center"><img height="94" alt="eqn6239 3" src="/assets/images/eq3.png" width="450" /></p>
+
+Thus, the difference is d=(1-l)aM. As l&lt;1 and a&gt;0, so now we need to worry about whether M is positive or not.
+
+<p align="center"><img height="158" alt="eqn6239 4" src="/assets/images/eq4.png" width="398" /></p>
+
+*Case 1* Warm milk &#8211; you should add the milk just before you are to drink the coffee.
+
+*Case 2* Room Temperature Milk &#8211; It really doesn&#8217;t matter when you add the milk. Do it now, do it later, I really don&#8217;t care.
+
+*Case 3* Cold milk &#8211; its best add this right when the coffee gets to you.
+
+To figure all this out without even touching any of the maths all you need to do (as with so many things in maths) is to consider the extreme examples.
+
+For instance, lets assume you&#8217;ve got a coffee at room temperature and the milk you are to add is either really hot or just above freezing. So it becomes obvious that you should add the hot milk later, the cold milk early.
+
+h2. Further variations
+
+For this entire problem we have assumed that the milk&#8217;s temperature is constant throughout, up until you add it to to the coffee. What happens if this isn&#8217;t the case? ie. you can let the milk stand at room temperature.
+
+For this, let r = the exponential decay constant for the milk&#8217;s container.
+
+So now we can add the acclimated milk later, giving -
+
+<p align="center"><img height="23" alt="eqn6239 5" src="/assets/images/eq5.png" width="125" /></p>
+
+This gives us a whole slew of new cases.
+
+<p>r&lt;l:  The milk pot is larger than your coffee cup.<br />
+
+      (E.g, it really is a pot.)<br />
+r&gt;l:  The milk pot is smaller than your coffee cup.<br />
+      (E.g., it&#8217;s one of those tiny single-serving things.)<br />
+M&gt;0:  The milk is warm.<br />
+M&lt;0:  The milk is cold.</p>
+<p>If you&#8217;re interested in the derivation you must be a really sad individual, so lets just jump to the end and the conclusions:</p>
+
+<p align="center">Add warm milk in large pots LATER.<br />
+Add warm milk in small pots NOW.<br />
+Add cold milk in large pots NOW.<br />
+Add cold milk in small pots LATER.</p>
+<p>Of course, observe that the above summary holds for the case where the<br />
+milk pot is allowed to acclimate; just treat the pot as of infinite<br />
+size and the problem goes away. Marvelous.</p>

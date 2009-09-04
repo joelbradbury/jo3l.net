@@ -1,0 +1,22 @@
+---
+layout : post
+title : Eulogy
+tags:
+- life
+- car
+published: false
+---
+
+h1. {{ page.title }}
+
+Old Polo, you've served me well.
+
+We've been so many places together, and you were the one that took me there. 
+
+Maybe more recently you've been showing your age. You've been getting noisy, and rough around the edges. The youthful power you once had has fleeted, gone never to come back.
+
+Still, we had fun together. You were the first car I ever bought, the first one I ever had proper, proud ownership of. Yes you were white, yes, you showed the dirt, and yes, I didn't clean you as often as I should, but when you were clean, you shone.
+
+I feel quite sad leaving you now, knowing that I'll likely be the last person to ever drive you, knowing that you're off to the great scrapyard in the sky.
+
+Farewell old Polo. I still have the passenger side door lock that pulled out 12 months ago, that I've been meaning to fix. I guess I never will now. 
