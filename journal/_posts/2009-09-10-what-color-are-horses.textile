@@ -18,7 +18,8 @@ Clearly one horse is the same color. Thus, lets assume the proposition <strong><
 We remove another horse and replace the first, thus the <strong><span style="color: blue;">k</span></strong> horses are the same color, again by hypothesis. By induction we can repeat for the whole set of k horses, thus it follows that all k horses are the same color, as<strong><span style="color: blue;">P(k) =&gt; P(k+1).</span></strong>
 
 As <span style="color: blue;"><strong>P(1)</strong></span> is true, by initial conditions (the horse I rode as a child), <strong><span style="color: blue;">P</span></strong> holds true for all subsequent values of <span style="color: blue;"><strong>k</strong></span>. <strong>[]</strong></blockquote>
-Theorem 1. Every horse has an infinite number of legs.
+
+*Theorem 1* Every horse has an infinite number of legs.
 
 *Proof*
 

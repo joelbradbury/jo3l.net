@@ -1,0 +1,18 @@
+---
+layout : post
+title : Physical Theories as Women
+tags:
+- maths
+---
+
+h1. {{ page.title }}
+
+# Newtonian gravity is your high-school girlfriend. As your first encounter with physics, she's amazing. You will never forget Newtonian gravity, even if you're not in touch very much anymore.
+# Electrodynamics is your college girlfriend. Pretty complex, you probably won't date long enough to really understand her.
+# Special relativity is the girl you meet at the dorm party while you're dating electrodynamics. You make out. It's not really cheating because it's not like you call her back. But you have a sneaking suspicion she knows electrodynamics and told her everything.
+# Quantum mechanics is the girl you meet at the poetry reading. Everyone thinks she's really interesting and people you don't know are obsessed about her. You go out. It turns out that she's pretty complicated and has some issues. Later, after you've broken up, you wonder if her aura of mystery is actually just confusion.
+# General relativity is your high-school girlfriend all grown up. Man, she is amazing. You sort of regret not keeping in touch. She hates quantum mechanics for obscure reasons.
+# Quantum field theory is from overseas, but she doesn't really have an accent. You fall deeply in love, but she treats you horribly. You are pretty sure she's fooling around with half of your friends, but you don't care. You know it will end badly.
+# Cosmology is the girl that doesn't really date, but has lots of hot friends. Some people date cosmology just to hang out with her friends.
+# Analytical classical mechanics is a bit older, and knows stuff you don't.
+# String theory is off in her own little world. She is either profound or insane. If you start dating, you never see your friends anymore. It's just string theory, 24/7.
