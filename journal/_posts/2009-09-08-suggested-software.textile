@@ -1,0 +1,42 @@
+---
+layout: post
+title: Suggested Software
+published: false
+---
+
+h1. {{ page.title }}
+
+- Dropbox
+-- change icon for leopard
+-- wallpapers cross machines
+-- text todo lists
+-- Geektool
+
+- Spotify
+-- playlists
+
+- Littlesnapper
+-- disable menu item
+-- dropbox folder
+
+- Textmate
+-- handle the purple haze
+-- getbundles
+-- ack in project
+-- code completion
+-- terminal integration
+
+- ExpanDrive
+-- mount it all
+
+- Terminal
+-- snowleopard niceness
+-- customise the output display
+-- git/svn color
+
+- Fluid
+-- currently
+-- other places
+-- icon sources
+
+

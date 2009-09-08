@@ -1,4 +1,4 @@
 markdown: rdiscount
 pygments: true
-permalink: pretty
 haml: true
+permalink: /journal/:year/:month/:title 

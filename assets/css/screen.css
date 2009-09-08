@@ -386,3 +386,8 @@ span.name {
 #home #nav_prev:hover, #home #nav_next:hover {
   color: #fff;
   text-decoration: none; }
+
+.wrap.list:nth-child(2n-1){	background-color:rgba(168, 207, 203, 0.2);
+	}
+.signoff { text-align:right;}
+.aside blockquote { border:none; background-color: transparent; font-size: 24px; font-weight:500; text-align:right; width:350px; text-shadow: 2px 2px 4px #111111; padding-bottom:0; font-family:Futura;}

@@ -1,0 +1,12 @@
+---
+layout: aside
+title: Opium
+categories:
+- asides
+body: opium aside
+---
+<blockquote>
+Religion isn't the opium of the people
+
+Opium is.
+</blockquote>
