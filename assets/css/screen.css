@@ -391,3 +391,6 @@ span.name {
 	}
 .signoff { text-align:right;}
 .aside blockquote { border:none; background-color: transparent; font-size: 24px; font-weight:500; text-align:right; width:350px; text-shadow: 2px 2px 4px #111111; padding-bottom:0; font-family:Futura;}
+h2#archives { font-size: 24px; font-weight:500;  text-shadow: 2px 2px 4px #111111; font-family:Futura; }
+h2#archives a { color: #fff;}
+h2#archives a:hover { text-decoration:none; color: rgba(230,240,201,0.8);}
