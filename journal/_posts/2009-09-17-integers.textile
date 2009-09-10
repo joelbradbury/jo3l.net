@@ -1,0 +1,11 @@
+---
+layout : aside
+title : Integers
+body: integers aside
+published : false
+---
+<blockquote>
+God created the Integers
+
+All else is the work of man
+</blockquote>
