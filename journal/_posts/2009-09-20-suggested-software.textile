@@ -10,7 +10,8 @@ h1. {{ page.title }}
 -- change icon for leopard
 -- wallpapers cross machines
 -- text todo lists
--- Geektool
+-- Geektool s
+
 
 - Spotify
 -- playlists
