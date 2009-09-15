@@ -1,0 +1,12 @@
+---
+layout: aside
+title: Person
+categories:
+- asides
+body: person aside
+---
+<blockquote>
+Person who says it cannot be done 
+
+must not interrupt person already doing it.
+</blockquote>

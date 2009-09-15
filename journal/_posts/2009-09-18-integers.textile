@@ -2,7 +2,7 @@
 layout : aside
 title : Integers
 body: integers aside
-published : false
+published : true
 ---
 <blockquote>
 God created the Integers
