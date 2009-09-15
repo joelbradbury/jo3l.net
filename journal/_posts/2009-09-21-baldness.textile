@@ -1,0 +1,13 @@
+---
+layout: aside
+title: Bald
+categories:
+- asides
+body: bald aside
+---
+<blockquote>
+It's not a bald spot 
+
+It's a hat-controlled communication system.
+</blockquote>
+
