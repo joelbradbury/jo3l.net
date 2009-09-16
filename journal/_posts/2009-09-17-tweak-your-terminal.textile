@@ -1,0 +1,49 @@
+---
+layout : post
+title : Tweak Your Terminal
+tags : 
+- terminal
+- bash
+- color
+---
+
+h1. {{ page.title }}
+
+If you're anything like me you spend inordinate amounts of time in the Terminal. This is especially true if you use git or svn on a regular basis (surely everybody should be using version control on a regular basis anyway?). The lack of a decent git client on mac (and to a lesser degree svn client) can lead to a steep learning curve for some. 
+
+One of the things that helps no end is tweaking the look of the terminal to be more _friendly_. There's lots of hacks to add colourful *ls* and such, but firstly lets sort out the look of the prompt.
+
+Normally the look of it is something like this :
+
+!/images/tweak_terminal_1.png(Messy looking terminal)! 
+
+The default prompt really isn't that helpful. At a glance you can't see your path beyond the current directory and the text generally bleeds into the prompt. 
+
+Adding the following to your *.bash_profile* will change the color of the prompt (in this case to red) and add the current path also.
+
+{% highlight bash %}
+PS1="\[\e[01;31m\]\w \$ \[\e[00m\]"
+{% endhighlight %}
+
+Which gives us this :
+
+!/images/tweak_terminal_2.png(Messy looking terminal)!
+
+Much nicer. 
+
+If you're working with git alot, it can be handy to quickly tell what branch you're currently working on. For that, simply ammend your *.bash_profile* to include this:
+
+{% highlight bash %}
+parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+
+PS1="\[\e[01;31m\]\w \$(parse_git_branch): \[\e[00m\]"
+{% endhighlight %}
+
+And then (if we're in a git repo) we get something more like this:
+
+!/images/tweak_terminal_3.png(Messy looking terminal)!
+
+Now you can't say that isn't handy.
+

@@ -1,0 +1,9 @@
+---
+layout : post
+title : Haldeman - a review
+body : haldeman
+---
+
+h1. {{ page.title }}
+
+Joe Haldeman's forever peace trilogy

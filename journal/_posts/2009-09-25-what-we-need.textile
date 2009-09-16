@@ -8,6 +8,6 @@ h1. {{ page.title }}
 
 As a developer there are only so many systems you can put in place. At some point you're going to actually have to do some work
 
-A ticket system can maintain and organise jobs, but you're going to have to crack open an editor and _do_ the work at some point.
+A ticket system can maintain and organize jobs, but you're going to have to crack open an editor and _do_ the work at some point.
 
 So stop complaining about it and just do the sodding work. 
