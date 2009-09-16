@@ -1,0 +1,12 @@
+---
+layout: aside
+title: Life
+categories:
+- asides
+body: lifetime aside
+---
+<blockquote>
+Life is bound to take time
+
+Make the best use of both
+</blockquote>
