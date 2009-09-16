@@ -4,6 +4,7 @@ title : Basecamp Favions
 tags :
 - greasemonkey
 - basecamp
+categories : journal
 ---
 
 h1. {{ page.title }}

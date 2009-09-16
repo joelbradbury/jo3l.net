@@ -3,6 +3,7 @@ layout : post
 title : Physical Theories as Women
 tags:
 - maths
+categories : journal
 ---
 
 h1. {{ page.title }}

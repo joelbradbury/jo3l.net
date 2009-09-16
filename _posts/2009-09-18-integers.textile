@@ -3,6 +3,7 @@ layout : aside
 title : Integers
 body: integers aside
 published : true
+categories : asides
 ---
 <blockquote>
 God created the Integers

@@ -1,6 +1,7 @@
 ---
 layout: post
 title : When to Add Milk to Coffee
+categories : journal
 ---
 
 h1. {{ page.title }}

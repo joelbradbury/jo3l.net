@@ -4,6 +4,7 @@ title : Winking
 body : 
 tags :
 - bodilyfunctions
+categories : journal
 ---
 
 h1. {{ page.title }}

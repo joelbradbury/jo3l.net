@@ -5,6 +5,7 @@ body : interlude
 published : true
 tags :
 - bodily function
+categories : journal
 ---
 
 h1. {{ page.title }}

@@ -5,6 +5,7 @@ tags :
 - jekyll
 - git
 published : true
+categories : journal
 ---
 
 h1. {{ page.title }}

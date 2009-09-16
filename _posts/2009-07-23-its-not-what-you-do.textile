@@ -5,6 +5,7 @@ body : what_you_do
 tags :
 - interview
 - job
+categories : journal
 ---
 
 h1. {{ page.title }}

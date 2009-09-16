@@ -5,6 +5,7 @@ tags :
 - osx
 - dev
 - bash
+categories : journal
 ---
 
 h1. sudo port : command not found

@@ -5,6 +5,7 @@ body : add_some_color
 tags :
 - git
 - terminal
+categories : journal
 ---
 
 h1. {{ page.title }}

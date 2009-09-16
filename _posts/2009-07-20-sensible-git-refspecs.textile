@@ -3,6 +3,7 @@ layout : post
 title : Sensible Git Refspecs
 tags :
 - git
+categories : journal
 ---
 
 h1. {{ page.title }}

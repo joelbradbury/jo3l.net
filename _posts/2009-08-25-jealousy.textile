@@ -2,6 +2,7 @@
 layout : post
 title : Jealousy
 published: false
+categories : journal
 ---
 
 h1. {{ page.title }}

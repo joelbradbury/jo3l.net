@@ -5,6 +5,7 @@ tags :
 - git
 - terminal
 - screwup
+categories : journal
 ---
 
 h1. {{ page.title }}

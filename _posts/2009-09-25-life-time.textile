@@ -4,6 +4,7 @@ title: Life
 categories:
 - asides
 body: lifetime aside
+categories : asides
 ---
 <blockquote>
 Life is bound to take time

@@ -5,6 +5,7 @@ tags :
 - terminal
 - bash
 - color
+categories : journal
 ---
 
 h1. {{ page.title }}

@@ -4,6 +4,7 @@ title: Criticism
 categories:
 - asides
 body: Criticism aside
+categories : asides
 ---
 <blockquote>
 Criticism is something we can avoid easily by saying nothing, doing nothing, and being nothing.
