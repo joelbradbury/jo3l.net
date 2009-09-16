@@ -1,0 +1,9 @@
+---
+layout : aside
+title : Integers
+---
+<blockquote>
+God created the Integers
+
+All else is the work of man
+</blockquote>
