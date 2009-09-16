@@ -1,0 +1,12 @@
+---
+layout: aside
+title: Criticism
+categories:
+- asides
+body: Criticism aside
+---
+<blockquote>
+Criticism is something we can avoid easily by saying nothing, doing nothing, and being nothing.
+</blockquote>
+
+Aristotle
