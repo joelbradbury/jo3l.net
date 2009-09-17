@@ -1,0 +1,32 @@
+---
+layout: post
+title: Expression Engine Hidden Templates
+categories:
+- ee
+- templates
+categories : journal
+---
+
+h1. {{ page.title }}
+
+In "Expression Engine":http://expressionengine.com, sometimes you don't want a template accessible to anyone that could stumble across a url. Most likely you'll be using these templates as embedded fragments to make up the common parts of a page.
+
+They're incomplete HTML, that make sense when part of the whole, but you really don't want to be visible on their own. In "EE":http://expressionengine.com you can use *hidden templates* to solve this. By making a template hidden it will still be available to embed the standard way, but can't be accessed via the _template_group/template_name_ url. 
+
+So in our case our template *head* (which has all the html header in) previously would of been embedded such :
+
+<blockquote>
+{embed="includes/head"}
+
+_but would of also been accessible via_
+
+http://site_url/includes/head
+</blockquote>
+
+So now, we rename it to *.head* and change our embed to :
+
+<blockquote>
+{embed="includes/.head"}
+</blockquote>
+
+Now a visit to _http://site_url/includes/.head_ gives us a 404, and all is good in the world.

@@ -1,0 +1,66 @@
+---
+layout: post
+title: Hidden EE Templates in Textmate
+categories:
+- ee
+- templates
+- textmate
+categories : journal
+---
+
+h1. {{ page.title }}
+
+Let's say you've made some hidden templates in "Expression Engine":http://expressionengine.com, perhaps following "the previous guide":/journal/2009/09/hidden-templates/. You've got hidden templates now, and it seems all is good. 
+
+But what happens when you want to edit the in everybody's favorite text editor, the mighty "TextMate":http://macromates.com/? As you're using the *.* to denote hidden templates and this is the same indicator for Os X to treat files as hidden they won't show up in project view.
+
+So you're options are :
+- Specifically open the single file in TextMate, or
+- Actually *fix* the issue at hand
+
+h2. 1. Single Editing in TextMate
+
+From the terminal (or from the finder - but that's not how I do things) you can open any file in TextMate, even hidden files (if they're visible in finder). All you'd need to do is a quick
+
+<blockquote>
+mate /path/to/hidden/template/.hiddentemplate
+</blockquote>
+
+And you can edit that template in TextMate. That works fine, except it's a bit inelegant. It doesn't really solve the problem at hand. I want all my template files visible in my project panel, not have to remember to open them separately outside of the project.
+
+So - onto a better solution.
+
+h2. 2. Fix the actual problem
+
+The reason the files don't show up in TextMate's project view is a simple on. By default TextMate will hide hidden system files from you, to stop you messing up things, and editing things that shouldn't be edited - ie. *svn files, git files ..etc*
+
+The thing that controls what _is_ and _isn't_ visible is a regular expression that you can edit by simply heading to *TextMate > Preferences > Advanced > Folder Reference* and then editing the *File Pattern*. 
+
+Before editing my file pattern was this :
+
+<blockquote>	
+	!(/\.(?!htaccess)[^/]*|\.(tmproj|o|pyc)|/Icon\r|/svn-commit(\.[2-9])?\.tmp)$
+</blockquote>
+
+The first section is what's doing most of the hiding, specifically the */\.(?!htaccess)[^/]*. That hides every file that starts with a *.*, _unless_ it's *.htaccess*. 
+
+We don't know what names the hidden templates will take, and we don't really want to have to care either, so we'll need to invert the clause, from hiding everything _except_ x & y, to showing all _except_ certain files. 
+
+So initially I changed my pattern to simply show everything, to be something like :
+
+<blockquote>
+	!(\.(tmproj|o|pyc)|/Icon\r|/svn-commit(\.[2-9])?\.tmp)$
+</blockquote>
+
+That _works_, but could be improved. I get the notorious *.DS_Store* files everywhere. I don't want to see them in my project view, so I updated it to hide them from view.
+
+<blockquote>
+	!(\.(DS_Store)|\.(tmproj|o|pyc)|/Icon\r|/svn-commit(\.[2-9])?\.tmp)$
+</blockquote>
+
+Great. Now I can see the hidden templates where-ever they are, but any files I don't want to see are hidden. You might need to edit this further to hide more but it's just a simple case of adding another case to your File Pattern - al la: *\.(FILE_NAME)*.
+
+h2. Is there a better way?
+
+Yes. Yes there is. A way of hiding Expression Engine templates, and not having to mess around with any of this File pattern/hidden files malarkey. But that's for another day. 
+
