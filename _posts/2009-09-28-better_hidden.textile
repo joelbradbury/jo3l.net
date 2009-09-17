@@ -1,0 +1,32 @@
+---
+layout: post
+title: Better Hidden Templates In EE
+categories:
+- ee
+- templates
+categories : journal
+---
+
+h1. {{ page.title }}
+
+We've been through "Expression Engine's":http://expressionengine.com mechanism for "handling hidden templates":/journal/2009/09/hidden-templates/. Basically it boils down to prepending the templates you want hidden with a period. 
+
+That works ok, but cause conflicts with other things, notably TextMate, and to a lesser degree Finder. There are "workarounds for solving":/journal/2009/09/textmate-hidden-templates/ the issues in TextMate, but it's not too pretty.
+
+h2. I Don't Like the Look of Them
+
+Come on. Periods at the start of every hidden file are just unpleasant. That single factor was the primary reason I hadn't done anything with hidden EE templates until recently. Of course if I'd of know:
+
+h2. Hidden Templates Can be Prepended with the Character of your choice
+
+I would of jumped on the band wagon ages ago. 
+
+Heading over to your trusty EE's *config.php* simply set the conf variable *hidden_template_indicator* to your choosing. In my case : 
+
+{% highlight php %}
+$conf['hidden_template_indicator'] = '_';
+{% endhighlight %}
+
+As by previous convention I use underscores as separators already. 
+
+By having a non *period* character as your hidden template indicator you neatly sidestep all the issues with hidden files and TextMate/Finder. 
