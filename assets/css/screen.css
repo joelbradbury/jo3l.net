@@ -395,3 +395,4 @@ h2#archives { font-size: 24px; font-weight:500;  text-shadow: 2px 2px 4px #11111
 h2#archives a { color: #fff;}
 h2#archives a:hover { text-decoration:none; color: rgba(230,240,201,0.8);}
 div.wrap div.highlight { background: rgba(10,10,10,0.8); padding:10px; overflow:auto;}
+.piping #post code { background-color: transparent; }

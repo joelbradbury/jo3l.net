@@ -1,0 +1,54 @@
+---
+layout : post
+title : Piping my rm
+categories : journal
+tags : 
+- svn
+- terminal
+body: piping
+---
+
+h1. {{ page.title }}
+
+When developing a site, running locally, and being held in version control by svn, you can run into some issues with certain dynamically generated files. Everything will be working fine, but an overzealous _svn add_ can lead to issues. 
+
+Most of the time, these are cache files, and we just need to do a _propset ignore_ on the relevant cache files and the issue goes away, as it should. Other times, the files are dynamically generated, but only need to be generated a single time, then can exist like this forever. In this case _image thumbs_.
+
+Development is running locally, so these thumbnail files are being created as you would expect. Other people are also viewing the a testing deploy of the site in a shared area. This causes these same thumbnail files to be created there also. 
+
+Doing an *svn add* locally add's all the thumbnail's that have been generated, committing them pushes them up. When it comes to deploy them to the shared testing area, what would of been a simple _svn up_, will hit the following error:
+
+{% highlight svn %}
+svn: Failed to add file 'www/images/sized/images/uploads/twitter-90x90.gif': an unversioned file of the same name already exists
+{% endhighlight %}
+
+Natch. The update stops dead. You need to sort it out before you can finish updating the site. If it's just a single image, you can delete it manually to make way for the to incoming file, but what if it's hundreds of duplicate files?
+
+A simple *svn st* on the remote repo will list changes, and these new thumbnails will be listed with a _?_ preceding them. Giving something like this:
+
+<pre><code>
+...
+?       www/images/sized/images/uploads/Lesley-McKnight---art-90x90.jpg
+?       www/images/sized/images/uploads/Linda-Davies---counselling-100x100.jpg
+?       www/images/sized/images/uploads/geo-cache_1506-184x209.jpg
+?       www/images/sized/images/uploads/Katherine-Bishton---business-90x90.jpg
+?       www/images/sized/images/uploads/Lesley-McKnight---art-80x80.jpg
+?       www/images/sized/images/uploads/Jack-Bebbington---fashion-80x80.jpg
+?       www/images/sized/images/uploads/art---Stephen-salter-80x80.jpg
+?       www/images/sized/images/uploads/paul-harris---engineering-80x80.jpg
+...
+</code></pre>
+
+With that output, we can clean it up, and then pipe it straight to xargs, to get rid of the files we don't want. The exact command would be :
+
+<pre><code>
+svn st | grep ^? | cut -c 9- | xargs rm
+</code></pre>
+
+* _svn st_ gets the list of changed files
+* _grep ^?_ filters out anything that isn't new
+* _cut -c 9-_ removes the first 9 empty characters
+* _xargs rm_ does the actual job of removing the duplicate files
+
+All done. Now you can do that *svn up* and we're good to go.
+
