@@ -28,7 +28,7 @@ PS1="\[\e[01;31m\]\w \$ \[\e[00m\]"
 
 Which gives us this :
 
-!/images/tweak_terminal_2.png(Messy looking terminal)!
+!/images/tweak_terminal_2.png(A better looking Terminal)!
 
 Much nicer. 
 
@@ -44,7 +44,7 @@ PS1="\[\e[01;31m\]\w \$(parse_git_branch): \[\e[00m\]"
 
 And then (if we're in a git repo) we get something more like this:
 
-!/images/tweak_terminal_3.png(Messy looking terminal)!
+!/images/tweak_terminal_3.png(Mmm, much nicer terminal)!
 
 Now you can't say that isn't handy.
 

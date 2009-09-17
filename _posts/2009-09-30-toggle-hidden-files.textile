@@ -1,0 +1,42 @@
+---
+layout: post
+title: Toggle Hidden Files
+categories:
+- osx
+- finder
+categories : journal
+---
+
+h1. {{ page.title }}
+
+Os X by default will hide any file or folder whose name starts with a *period*. That makes sense, there's lots of folders and files that need to be kept around that I just don't want to have to filter through all the time.
+
+However, as a developer there are certain files that I want to be able to get quickly at, _.htaccess_, _.git_, _.svn_ etc. To show these hidden files in finder you need to amend one of the defaults. Dropping the following into Terminal will do the job:
+
+{% highlight bash %}
+defaults write com.apple.Finder AppleShowAllFiles YES
+{% endhighlight %}
+
+You'll need to force a relaunch of finder for the new settings to be picked up (via _Force Quit > Finder > Relaunch_). 
+
+The only issue with doing things this way, is if we want to hide the _hidden_ files again, we have to run 
+
+{% highlight bash %}
+defaults write com.apple.Finder AppleShowAllFiles NO
+{% endhighlight %}
+
+and relaunch finder again. What would be nicer would be a button on Finder's toolbar, that would update the settings, and relaunch it. It's a simple applescript to toggle the defaults, then relaunch Finder.
+
+That's exactly what "ToggleHiddenFiles":/downloads/FinderToggleHiddenFiles.dmg does. 
+
+- Download the dmg "ToggleHiddenFiles":/downloads/FindeToggleHiddenFiles.dmg, mount etc.
+- Copy it to Applications or wherever you prefer
+- From your Applications (or similar) folder, drag the app to finder's menu bar, when you get a green '+' icon, drop it where you'd like.
+
+!/images/hiddentoggle_1.png(Wait for the green +)! 
+
+Now when you want to toggle the visibility of the hidden files its a simple click. 
+
+!/images/hiddentoggle_2.png(How handy)!
+
+
