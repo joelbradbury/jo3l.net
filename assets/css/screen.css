@@ -1,3 +1,20 @@
+@font-face {
+font-family: GraublauWeb;
+src: url("/assets/fonts/GraublauWeb.otf") format("opentype");
+}
+@font-face {
+font-family: GraublauWeb;
+font-weight: bold;
+src: url("/assets/fonts/GraublauWebBold.otf") format("opentype");
+}
+
+@font-face {
+font-family: Delicious;
+font-weight: bold;
+src: url("/assets/fonts/Delicious-Roman.otf") format("opentype");
+}
+
+
 * {
   margin: 0;
   padding: 0; }
@@ -9,7 +26,7 @@ body {
   height: 100%;
   background: #222 url(/assets/images/bg.jpg);
   color: #ccc;
-  font: 13.34px 'Helvetica Neue', helvetica, arial, clean, sans-serif;
+  font: 13.34px 'Delicious','Helvetica Neue', helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
   margin-bottom: 7px;
@@ -366,14 +383,14 @@ body.winking {
   color: #3D7F4E; }
 
 span.big {
-  font-family: "Chaparral Pro";
+  font-family: "GraublauWeb","Chaparral Pro","Helvetica Neue","Helvetica";
   font-size: 32px; }
 span.name {
-  font-family: "Chaparral Pro";
+  font-family:"GraublauWeb","Chaparral Pro","Helvetica Neue","Helvetica";
   font-size: 32px;
   vertical-align: sub;
   font-size: 46px;
-  text-shadow: 1px 1px 1px #000; }
+  text-shadow: 2px 1px 3px #000; }
 
 #nav_archives, #nav_about, #nav_tags {
   margin-left: 5px; }
