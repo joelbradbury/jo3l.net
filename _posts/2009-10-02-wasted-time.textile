@@ -1,0 +1,15 @@
+---
+layout: aside
+title: Wasted time
+categories:
+- asides
+body: aside
+categories : asides
+---
+<blockquote>
+	Time you enjoy wasting,
+	
+	was not wasted
+</blockquote>
+
+John Lennon
