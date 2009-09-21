@@ -23,6 +23,7 @@ html {
   height: 100%; }
 
 body {
+	 -webkit-text-stroke:1px transparent;
   height: 100%;
   background: #222 url(/assets/images/bg.jpg);
   color: #ccc;
