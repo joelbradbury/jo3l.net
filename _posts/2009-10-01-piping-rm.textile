@@ -26,6 +26,7 @@ Natch. The update stops dead. You need to sort it out before you can finish upda
 
 A simple *svn st* on the remote repo will list changes, and these new thumbnails will be listed with a _?_ preceding them. Giving something like this:
 
+<blockquote>
 <pre><code>
 ...
 ?       www/images/sized/images/uploads/Lesley-McKnight---art-90x90.jpg
@@ -38,16 +39,19 @@ A simple *svn st* on the remote repo will list changes, and these new thumbnails
 ?       www/images/sized/images/uploads/paul-harris---engineering-80x80.jpg
 ...
 </code></pre>
+</blockquote>
 
 With that output, we can clean it up, and then pipe it straight to xargs, to get rid of the files we don't want. The exact command would be :
 
-<pre><code>
+<notextile>{% highlight bash %}
 svn st | grep ^? | cut -c 9- | xargs rm
-</code></pre>
+{% endhighlight %}</notextile>
+
+Breaking that down:
 
 * _svn st_ gets the list of changed files
 * _grep ^?_ filters out anything that isn't new
-* _cut -c 9-_ removes the first 9 empty characters
+* _<notextile>cut -c 9-</notextile>_ removes the first 9 empty characters
 * _xargs rm_ does the actual job of removing the duplicate files
 
 All done. Now you can do that *svn up* and we're good to go.
