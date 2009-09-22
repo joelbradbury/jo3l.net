@@ -54,7 +54,9 @@ h1 {
   .header h1#home {
     font-family: "Chaparral Pro";
     font-size: 22px;
-    font-weight: 400; }
+    font-weight: 400;
+ 		line-height:32px; 
+		height:32px;}
     .header h1#home a {
       font-weight: 400;
       color: #fff; }
