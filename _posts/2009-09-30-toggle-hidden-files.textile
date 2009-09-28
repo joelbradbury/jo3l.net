@@ -29,7 +29,7 @@ and relaunch finder again. What would be nicer would be a button on Finder's too
 
 That's exactly what "ToggleHiddenFiles":/downloads/FinderToggleHiddenFiles.dmg does. 
 
-- Download the dmg "ToggleHiddenFiles":/downloads/FindeToggleHiddenFiles.dmg, mount etc.
+- Download the dmg "TogglerHiddenFiles":/downloads/FindeToggleHiddenFiles.dmg, mount etc.
 - Copy it to Applications or wherever you prefer
 - From your Applications (or similar) folder, drag the app to finder's menu bar, when you get a green '+' icon, drop it where you'd like.
 
