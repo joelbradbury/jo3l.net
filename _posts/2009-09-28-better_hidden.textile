@@ -15,7 +15,7 @@ That works ok, but cause conflicts with other things, notably TextMate, and to a
 
 h2. I Don't Like the Look of Them
 
-Come on. Periods at the start of every hidden file are just unpleasant. That single factor was the primary reason I hadn't done anything with hidden EE templates until recently. Of course if I'd of know:
+Come on. Periods at the start of every hidden file are just unpleasant. That single factor was the primary reason I hadn't done anything with hidden EE templates until recently. Of course if I'd of known - 
 
 h2. Hidden Templates Can be Prepended with the Character of your choice
 

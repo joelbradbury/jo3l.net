@@ -1,0 +1,33 @@
+Good programs do not contain spelling errors or have grammatical mistakes. I think this is probably a result of fractal attention to detail; in great programs things are correct at all levels, down to the periods at the ends of sentences in comments.
+
+“Aw, c’mon! You’re kidding!” You might think that nit-picking like this is beneath you, whereupon I will start pointing out errors in your code. It was embarrassing the first couple times this happened to me.
+
+
+
+
+
+
+I’ll leave you with three rules I’ve learned, the hard way. There are lots of things I could have included; these are the desert island ones:
+
+1. Either leave the existing brace style the hell alone and live with it, or completely re-write the code. Going the middle road leaves two unhappy parties, leaving it alone or replacing it leaves just one. And while you should err on the side of just living with what’s already there, you shouldn’t be shy about cleaning up a train wreck.
+
+2. Good programs do not contain spelling errors or have grammatical mistakes. I think this is probably a result of fractal attention to detail; in great programs things are correct at all levels, down to the periods at the ends of sentences in comments.
+
+“Aw, c’mon! You’re kidding!” You might think that nit-picking like this is beneath you, whereupon I will start pointing out errors in your code. It was embarrassing the first couple times this happened to me.
+
+3. Crack open your current project. Now, delete as much stuff as you can and still have it work. Done? Okay, now toss out more, because I know that your first pass was too timid. Pretend that you’re paying cash for every line of code. If your project incorporates code by other people, wade into their stuff, too. You’ll be amazed how much can come out.
+
+Don’t leave unused code hanging around because it might be useful someday. If it’s not being used right now, remove it, because even just sitting there it’s costing you. It costs to compile (you have to fix build breaks in stuff you’re not even using), it costs to ignore it in searches, and the chances are pretty good that if you do go to use it someday, you’ll have to debug it, which is really expensive.
+
+It’s tremendously freeing to zap the fat in a system, and after a while it’s addictive. Read all code with an eye towards “What is superfluous?” and you’ll be amazed at how much unused, half-written and buggy crap there is in loose in the world, and how much better off we are without it.
+Add starLikeShareShare with noteEmailKeep unreadEdit tags:
+
+    * relevant
+
+No more items in Offline mode.Go online to check for new items.
+No more items.
+ 
+Previous item
+ 
+Next item
+1 item
