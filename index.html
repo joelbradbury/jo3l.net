@@ -11,8 +11,8 @@ title: Joel Bradbury
 </div>
 </div>
 {% for post in site.posts limit:5 %}
-<div class="wrap list">
-  <div class="post {{ post.body }}">
+<div class="wrap list {{ post.body }}">
+  <div class="post">
 	{{ post.content }}
   <p class="signoff">
     &mdash;<a href="{{ post.url }}">{{ post.date | date: "%b %d, %Y" }}</a>

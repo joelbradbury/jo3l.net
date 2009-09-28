@@ -1,0 +1,28 @@
+---
+layout: post
+title : Textmate Redressed
+categories : journal
+tags : 
+- osx
+- textmate
+- code
+published: false
+---
+
+h1. {{ page.title }}
+
+Anything I do 
+
+
+
+
+I write almost everything in TextMate. I have written so much code in this great editor that I constantly reach for shortcuts and snippets outside of it, normally resulting in some benign default function of the current app which almost always produces a FAIL. It’s because of this that I’ve taken to writing emails, tweets, wiki entries, blog posts and most everything else I can in TextMate by gathering plug-ins and bundles that extend it’s functionality. It’s no surprise then that the more capability I added to the app, the less time I spent in the respective apps that were being replaced. This extra time eventually led to me developing a pretty monochromatic outlook on my workspace. I was getting cabin fever, er, TextMate fever… from the minimalist program. Although the interface for the app is very straightforward, many aspects ( purple? ykm ) didn’t fit with the rest of the Mac interface. So I set out to see what my options were.
+
+Being a graphic designer, I have always been indifferent about the icon. I would invoke QuickSilver, pull up TextMate and see same purple gear on a bordered window with a pen and I’d rather eat pencil shavings. I’m sure there are lots of people who depend on that icon being there for them when they get to work each day, and even more importantly need it to stay purple. I’ve got nothing against gears or purple or bordered windows in general, but the icon was impersonal and dry. I had to have something new to look at.
+Renovation can be scary…
+
+Research for inspiration yielded what I call ‘Gunk‘. I wanted an icon that made me want to type without making me feel like a sun-deprived cave dweller. I frequently map out site concepts and ideas, and sometimes actually write, in a moleskine, and decided it would have to do. So I made up the logo ( “opened a window” in purple fever terms ) Green Moleskine icon for TextMateand started looking into what had already been done for TextMate and found a wealth of plugins, which I reduced to Webmate, SVNMate, and MissingDrawer. I looked into ProjectPlus which could have replaced parts of MissingDrawer and SVNMate but it proved bulky and loved to pick fights with any other plugin I added, which started to defeat the purpose of how I use TextMate as I would have to disable blogging and other plugins to use it.
+
+So I used WebMate for the convenience factor it added to basic html editing, SVNMate for the SVN status icons it added to the project view, and MissingDrawer to kill the rounded corner drawer that I loathe. Note: if you regularly put the project drawer on different sides of the main window (Dave), this plugin isn’t for you. I then grabbed several goodies from a nice makeover kit from Alexander Atallah called SuperMate, modified the square tabs a smidge, added the code collapse from SubtleGradient and I was starting to feel a spring breeze. I then took the documentation from SuperMate, gave it an overhaul to have decent markup and updated it to include all the additions and zipped the whole deal for you to download. I’m sure that TextMate 2 is in the works, but I’m hoping that this will tide me over. If you like it, leave me a comment.
+
+update: now includes an ico for windows users of E-TextEditor thanks to Chase Swindler

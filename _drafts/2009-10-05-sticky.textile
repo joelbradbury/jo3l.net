@@ -1,0 +1,8 @@
+---
+layout : post
+title : Sticky
+---
+
+h1. {{ page.title }}
+
+Autumn is not the season to park on our street.
