@@ -97,7 +97,7 @@ blockquote {
 em {
   font-weight: bold; }
 
-div.wrap.header {
+div.wrap.header, div.wrap.foot {
   background: #15140F url(/assets/images/bgh.jpg); }
 
 .home .wrap.header div {
