@@ -1,0 +1,47 @@
+---
+layout : post
+title : How many trig functions are there?
+categories : journal
+tags : 
+- maths
+body: trigfunctions
+---
+
+h1. {{ page.title }}
+            
+
+from: http://www.johndcook.com/blog/2009/09/25/how-many-trig-functions/
+
+
+by John on September 25, 2009
+
+How many basic trigonometric functions are there? I will present the arguments for 1, 3, 6, and at least 12.
+
+h2. The calculator answer: 3
+
+A typical calculator has three trig functions if it has any: sine, cosine, and tangent. The other three that you may see — cosecant, secant, and cotangent — are the reciprocals of sine, cosine, and tangent respectively. Calculator designers expect you to push the cosine key followed by the reciprocal key if you want a secant, for example.
+
+h2. The calculus textbook answer: 6
+
+The most popular answer to the number of basic trig functions may be six. Unlike calculator designers, calculus textbook authors find the cosecant, secant, and cotangent functions sufficiently useful to justify their inclusion as first-class trig functions.
+
+h2. The historical answer: At least 12
+
+There are at least six more trigonometric functions that at one time were considered worth naming. These are versine, haversine, coversine, hacoversine, exsecant, and excosecant. All of these can be expressed simply in terms of more familiar trig functions. For example, versine(θ) = 2 sin2(θ/2) = 1 – cos(θ) and exsecant(θ) = sec(θ) – 1.
+
+Why so many functions? One of the primary applications of trigonometry historically was navigation, and certain commonly used navigational formulas are stated most simply in terms of these archaic function names. For example, the "law of haversines":http://en.wikipedia.org/wiki/Haversine_formula. Modern readers might ask why not just simplify everything down to sines and cosines. But when you’re calculating by hand using tables, every named function takes appreciable effort to evaluate. If a table simply combines two common operations into one function, it may be worthwhile.
+
+These function names have a simple pattern. The “ha-” prefix means “half,” just as in “ha’penny.” The “ex-” prefix means “subtract 1.” The “co-” prefix means what it always means. (More on that below.) The “ver-” prefix means 1 minus the co-function.
+
+Pointless exercise: How many distinct functions could you come up with using every combination of prefixes? The order of prefixes might matter in some cases but not in others.
+
+h2. The minimalist answer: 1
+
+The opposite of the historical answer would be the minimalist answer. We don’t need secants, cosecants, and cotangents because they’re just reciprocals of sines, cosines, and tangents. And we don’t even need tangent because tan(θ) = sin(θ)/cos(θ). So we’re down to sine and cosine, but then we don’t really need cosine because cos(θ) = sin(π/2 – θ).
+
+Not many people remember that the “co” in cosine means “complement.” The cosine of an angle θ is the sine of the complementary angle π/2 – θ. The same relationship holds for secant and cosecant, tangent and cotangent, and even versine and coversine.
+
+By the way, understanding this complementary relationship makes calculus rules easier to remember. Let foo(θ) be a function whose derivative is bar(θ). Then the chain rule says that the derivative of foo(π/2 – θ) is -bar(π/2 – θ). In other words, if the derivative of foo is bar, the derivative of cofoo is negative cobar. Substitute your favorite trig function for “foo.” Note also that the “co-” function of a “co-” function is the original function. For example, co-cosine is sine.
+The consultant answer: It depends
+
+The number of trig functions you want to name depends on your application. From a theoretical view point, there’s only one trig function: all trig functions are simple variations on sine. But from a practical view point, it’s worthwhile to create names like tan(θ) for the function sin(θ)/sin(π/2 – θ). And if you’re a navigator crossing an ocean with books of trig tables and no calculator, it’s worthwhile working with haversines etc.

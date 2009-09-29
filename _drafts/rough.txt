@@ -1,0 +1,18 @@
+
+http://bluesuncorp.co.uk/article/top-ten-science-fiction-novels
+sci fi reading list
+ - haldeman forever war
+
+
+http://www.johndcook.com/blog/2009/04/22/being-indispensable/
+- job security vs. handing things off
+
+http://www.johndcook.com/blog/2008/01/29/programming-the-last-mile/
+- moving from the deep programming to the manual bit is where problems leak in
+
+
+http://reproducibleresearch.org/blog/2008/10/01/musical-chairs-and-reproducibility-drills/
+- repoducability, build masters. 
+
+http://www.johndcook.com/blog/2008/03/30/god-is-in-the-details/
+- everything is interesting if you go deep enough
