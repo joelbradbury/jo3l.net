@@ -2,5 +2,5 @@ markdown: rdiscount
 pygments: true
 haml: true
 permalink: /:categories/:year/:month/:title 
-schedule_posts: false
+schedule_posts: true
 verbose: true
