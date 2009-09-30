@@ -1,12 +1,20 @@
 ---
-layout: single
+layout: none
 title: Joel Bradbury
 ---
 {% for post in site.posts limit:1 %}
-  <div class="post {{ post.body }}">
-	{{ post.content }}
-  <p class="signoff">
-    &mdash;<a href="{{ post.url }}">{{ post.date | date: "%b %d, %Y" }}</a>
-  </p>
- </div>
+{% include head.textile %}
+	{% include nav.textile %}
+	<div class="wrap">
+		<div class="body">
+			<div class="post {{ post.body }}">
+			{{ post.content }}
+		  <p class="signoff">
+		    &mdash;<a href="{{ post.url }}">{{ post.date | date: "%b %d, %Y" }}</a>
+		  </p>
+		 </div>
+		</div>
+	</div>
+{% include foot.html %}
 {% endfor %}
+

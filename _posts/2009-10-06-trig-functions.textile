@@ -5,6 +5,7 @@ categories : journal
 tags : 
 - maths
 body: trigfunctions
+prev : /journal/2009/10/bike-sheds/
 ---
 
 h1. {{ page.title }}
