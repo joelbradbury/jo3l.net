@@ -25,7 +25,8 @@ html {
 body {
 	 -webkit-text-stroke:1px transparent;
   height: 100%;
-  background: #222 url(/assets/images/bg.jpg);
+	background:#15140F url(/assets/images/bgh.jpg) repeat scroll 0 0;
+/*  background: #222 url(/assets/images/bg.jpg);*/
   color: #ccc;
   font: 13.34px 'Delicious','Helvetica Neue', helvetica, arial, clean, sans-serif;
   *font-size: small;
@@ -56,7 +57,8 @@ h1 {
     font-size: 22px;
     font-weight: 400;
  		line-height:32px; 
-		height:32px;}
+		height:32px;
+		margin-bottom:0;}
     .header h1#home a {
       font-weight: 400;
       color: #fff; }
@@ -73,7 +75,7 @@ h2 {
 
 p {
   margin: 2em 0; }
-
+.blurb p { margin : 0 0 2em 0; padding-top:2em;}
 a {
   color: #779;
   text-decoration: none; }
@@ -135,7 +137,7 @@ p.meta, ul.posts span {
   font-size: 110%;
   text-align: justify;
   line-height: 1.5em; }
-
+.wrap.post { background: #222 url(/assets/images/bg.jpg); padding-bottom:30px;}
 #title {
   color: #a00;
   font-weight: bold;
@@ -165,7 +167,6 @@ p.meta, ul.posts span {
 .wrap .footer {
   font-size: 80%;
   color: #666;
-  border-top: 1px solid #333;
   margin-top: 2em;
   overflow: hidden;
   width: 50em; }
@@ -199,7 +200,7 @@ p.center {
 #post {
   padding-bottom: 40px;
   border-bottom: 1px solid #333;
-  margin-top: 20px; }
+  padding-top: 20px; }
   #post table {
     width: 60%;
     margin: 0 auto; }
@@ -417,7 +418,7 @@ h2#archives a:hover { text-decoration:none; color: rgba(230,240,201,0.8);}
 div.wrap div.highlight { background: rgba(10,10,10,0.8); padding:10px; overflow:auto;}
 .piping #post code { background-color: transparent; }
 
-.wrap.list.bikesheds, .bikesheds { background: #4A9F9D url(none); color:#333;}
+.wrap.list.bikesheds, .bikesheds .wrap.post { background: #4A9F9D url(none); color:#333;}
 .bikesheds a { color:#eee;}
 .bikesheds h1.title { font-size:120px; line-height:1em; text-transform:uppercase; width:120px; float:left; margin-left:-90px; margin-bottom:30px;}
 .bikesheds h2 { font-size:42px; line-height:46px; color:#fff; text-shadow:1px 1px 3px #666666, -2px -1px 3px #000000;}

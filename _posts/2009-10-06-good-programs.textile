@@ -15,4 +15,4 @@ This is probably a result of fractal attention to detail;
 in great programs things are correct at all levels, down to the periods at the ends of sentences in comments.
 </blockquote>
 
-"30 Years of C - DadHacker":http://www.dadhacker.com/blog/?p=1132
+<p class="src">"30 Years of C - DadHacker":http://www.dadhacker.com/blog/?p=1132</p>

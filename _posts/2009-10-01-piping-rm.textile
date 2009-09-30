@@ -6,6 +6,7 @@ tags :
 - svn
 - terminal
 body: piping
+prev : /journal/2009/09/toggle-hidden-files/
 ---
 
 h1. {{ page.title }}
