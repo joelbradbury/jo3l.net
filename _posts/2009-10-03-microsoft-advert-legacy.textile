@@ -1,0 +1,52 @@
+---
+layout : post
+title : Microsoft's Advertising Legacy
+categories : journal
+tags : 
+- microsoft
+body: msadverts
+---
+
+h1. {{ page.title }}
+
+The Windows 7 launch party video has been doing the rounds lately. It's cringe worthy. Really bad. A group of demographically correct actors standing around a kitchen 'discussing' how great it is to throw a launch party for a piece of software.
+
+Watch it now if you haven't already.
+
+<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/1cX4t5-YpHQ&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/1cX4t5-YpHQ&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+
+Painful. Really painful. Still it's classically Microsoft. People are talking about how bad it is, how hard it is to watch this group of actors pretend to be super friendly and wax emotionally over a dire piece of software.
+
+h2. But maybe that's the point?
+
+How many people do you know that will actually host these 'Launch Parties'? None that I can think of. And even if some did, who would go? You might be able to trick the odd hobo to one with the promise of alcohol and cheese on little sticks, but even they would bolt when you suggest -
+
+<blockquote>
+Hey, lets all crowd round my £300 asus laptop, while I show you how some piece of software helps us avoid any remaining physical contact in our lives!
+</blockquote>
+
+The total number of people that are gonna be doing these 'parties' has got to be in the low 20s, and at least 4 of those are paid actors, and the remaining ~16 are Microsoft middle managers in the marketing division.
+
+The marketing divisions, and companies that are retained to create these abominations surely must have an inkling of what they're doing - they still live in this same world, don't they? That leads us to two scenarios :
+
+h2. They're bad on purpose
+
+It's all a ploy to get people talking about them. They realize that any publicity is good publicity. It's a reverse phycology viral marketing campaign. They know how bad they are and that's what's being banked on. People pass that kind of thing on. When you say -
+
+<blockquote>Have you seen that awful Windows 7 Launch Party video? No? I'll send it you</blockquote>
+
+.. you're doing exactly what they want. Even if you laugh about the video you still get the message that Windows 7 is coming out very soon. Not only that, but you've passed that message on to others. Job done.
+
+h2. They're following the lead of _every_ previous Microsoft advert
+
+Microsoft products will never be cool. They've accepted that. Further to that all their previous attempts at advertising have been along the same painfully bad lines. Just watch this brief selection.
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/dmEvPZUdAVI&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/dmEvPZUdAVI&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/sforhbLiwLA&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/sforhbLiwLA&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+
+<object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/xB9fhjnJcB0&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/xB9fhjnJcB0&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+
+or if you really want pain the four part video 'sitcom' guide to Windows 98, featuring two people at the top of their careers, Jennifer Aniston and Matthew Perry. They're kind of hypnotic. "Part 1":http://www.youtube.com/watch?v=1GWQgb015Lc, "Part 2":http://www.youtube.com/watch?v=RPcqz3pXQ-w, "Part 3":http://www.youtube.com/watch?v=mrq0HQrYN6A and "Part 4":http://www.youtube.com/watch?v=S0_oj-VBW3c. 
+
+<blockquote>Oh No! It's joystick Johnny!</blockquote>

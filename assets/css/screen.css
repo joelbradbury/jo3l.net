@@ -285,9 +285,6 @@ div.tag {
   div.tag h3.tag, div.tag h2.tag {
     margin-top: 0;
     text-shadow: 1px 1px 3px #000000; }
-
-.about {
-  background: #302D28 url(/assets/images/bga.jpg) repeat scroll 0 0; }
   .about h1 {
     font-size: 30px;
     font-weight: 200; }
@@ -295,11 +292,7 @@ div.tag {
     -moz-column-count: 2;
     -moz-column-gap: 30px; }
 
-.archives {
-  background: #1E2716 url(/assets/images/bgv.jpg) repeat scroll 0 0; }
 
-.tags {
-  background: #151E25 url(/assets/images/bgt.jpg) repeat scroll 0 0; }
 
 .about #title {
   margin-top: 3em;
@@ -309,7 +302,7 @@ div.tag {
 .about img {
   margin-left: -167px;
   -moz-box-shadow: 0px 0px 10px 2px #111111;
-  margin-top: -30px; }
+  margin-top: 0; }
 
 #badge .badges {
   display: block;
@@ -407,8 +400,12 @@ span.name {
 #home #nav_prev:hover, #home #nav_next:hover {
   color: #fff;
   text-decoration: none; }
-
-.wrap.list:nth-child(2n-1){	background-color:rgba(168, 207, 203, 0.2);
+.wrap.list { 	
+	-moz-box-shadow:0 0 10px 2px #000000; }
+.wrap.list div { padding-top:20px;}
+.wrap.list:nth-child(2n){	
+	background: url(/assets/images/bg.jpg);
+	background-color:rgba(168, 207, 203, 0.2);
 	}
 .signoff { text-align:right;}
 .aside blockquote { border:none; background-color: transparent; font-size: 24px; font-weight:500; text-align:right; width:350px; text-shadow: 2px 2px 4px #111111; padding-bottom:0; font-family:Futura;}

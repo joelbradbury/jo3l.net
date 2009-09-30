@@ -28,9 +28,9 @@ defaults write com.apple.Finder AppleShowAllFiles NO
 
 and relaunch finder again. What would be nicer would be a button on Finder's toolbar, that would update the settings, and relaunch it. It's a simple applescript to toggle the defaults, then relaunch Finder.
 
-That's exactly what "ToggleHiddenFiles":/downloads/FinderToggleHiddenFiles.dmg does. 
+That's exactly what "ToggleHiddenFiles":http://jo3l.net/downloads/FinderToggleHiddenFiles.dmg does. 
 
-- Download the dmg "TogglerHiddenFiles":/downloads/FindeToggleHiddenFiles.dmg, mount etc.
+- Download the dmg "ToggleHiddenFiles":http://jo3l.net/downloads/FinderToggleHiddenFiles.dmg, mount etc.
 - Copy it to Applications or wherever you prefer
 - From your Applications (or similar) folder, drag the app to finder's menu bar, when you get a green '+' icon, drop it where you'd like.
 
