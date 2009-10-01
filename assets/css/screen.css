@@ -199,7 +199,6 @@ p.center {
 
 #post {
   padding-bottom: 40px;
-  border-bottom: 1px solid #333;
   padding-top: 20px; }
   #post table {
     width: 60%;
@@ -415,14 +414,17 @@ h2#archives a:hover { text-decoration:none; color: rgba(230,240,201,0.8);}
 div.wrap div.highlight { background: rgba(10,10,10,0.8); padding:10px; overflow:auto;}
 .piping #post code { background-color: transparent; }
 
-.wrap.list.bikesheds, .bikesheds .wrap.post { background: #4A9F9D url(none); color:#333;}
+.wrap.list.bikesheds, .bikesheds .wrap.post { background: #C78C5D url(none); color:#333;}
 .bikesheds a { color:#eee;}
-.bikesheds h1.title { font-size:120px; line-height:1em; text-transform:uppercase; width:120px; float:left; margin-left:-90px; margin-bottom:30px;}
+.bikesheds h1.title { font-size:120px; line-height:1em; text-transform:uppercase; width:120px; float:left; margin-left:-190px; margin-bottom:30px; font-family:"Helvetia Neue",Helvetica, Arial; color:#000;}
 .bikesheds h2 { font-size:42px; line-height:46px; color:#fff; text-shadow:1px 1px 3px #666666, -2px -1px 3px #000000;}
 .bikesheds p.first { float:right; width:400px;}
-.bikesheds blockquote { width:330px; float:right; background:transparent none repeat scroll 0 0; border:none; font-size:26px; font-style:italic; line-height:1.3em; text-align:right; }
-.bikesheds p.second { clear:both; margin:0 auto; width:380px;}
-.bikesheds p.imagea { float:left; margin: 20px 20px 20px -150px;}
-.bikesheds p.imageb { float:right; margin: 20px -150px 20px 20px;}
+.bikesheds blockquote { color:#fff; text-shadow:1px 1px 3px #666666, -2px -1px 3px #000000; width:330px; float:right; background:transparent none repeat scroll 0 0; border:none; font-size:26px; font-style:italic; line-height:1.3em; text-align:right;font-family:"Helvetia Neue",Helvetica, Arial; }
+.bikesheds blockquote p { margin-bottom:0;}
+.bikesheds p.second { clear:both; margin:0 0 0 -50px; width:380px;}
+.bikesheds p.imagea { float:left; margin: 114px 20px 20px -530px;}
+.bikesheds p.imageb { float:right; margin: 20px -350px 20px 20px;}
+.bikesheds p.third { font-size:21px; margin-left:-128px; position:absolute; width:820px;}
+.bikesheds p.fourth { margin-top:180px;}
 .bikesheds p.seventh em { color:#fff;}
 .bikesheds h2.eight { text-align:center;}
