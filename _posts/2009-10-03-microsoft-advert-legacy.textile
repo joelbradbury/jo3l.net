@@ -5,6 +5,7 @@ categories : journal
 tags : 
 - microsoft
 body: msadverts
+published: false
 ---
 
 h1. {{ page.title }}

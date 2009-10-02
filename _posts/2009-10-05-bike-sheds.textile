@@ -19,7 +19,7 @@ body: bikesheds
 <p class="second">He calls this the Law of Triviality. It's also the source of the Bike Shed argument. Or to put another way :</p>
 <p class="imagea"><img src="/images/bikesheds_4.png" alt=""/></p>
 <p class="third">A committee will spend more time discussing things they understand. A _nuclear power plant_ will sail through a finance committee, but a _bicycle shed_ will get stuck in endless debates because everybody will have an opinion.</p>
-<p class="imageb"><img src="/images/bikesheds_2.jpg" alt="" /></p>
+<p class="imageb"><img src="/images/bikesheds_5.jpg" alt="" /></p>
 <p class="fourth">While no-one on the committee will understand the finer points of a nuclear power plant, bicycle sheds are simple, they're just sheds for bikes, so everyone will feel they intimately understand the subject, and feel the need to have input on it. So you'll end up with a multi-million pound power plant being okayed in a (relative) fraction of the time it takes to decide on a color to paint a £50 bike shed.</p>
 
 </div>
