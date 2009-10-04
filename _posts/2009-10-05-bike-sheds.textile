@@ -5,6 +5,7 @@ categories : journal
 tags : 
 - code
 body: bikesheds
+prev : /asides/2009/10/wasted-time/
 ---
 
 <div class="over">
@@ -17,18 +18,18 @@ body: bikesheds
 </blockquote>
 
 <p class="second">He calls this the Law of Triviality. It's also the source of the Bike Shed argument. Or to put another way :</p>
-<p class="imagea"><img src="/images/bikesheds_4.png" alt=""/></p>
+<p class="imagea"><img src="/images/bikesheds_1.png" alt=""/></p>
 <p class="third">A committee will spend more time discussing things they understand. A _nuclear power plant_ will sail through a finance committee, but a _bicycle shed_ will get stuck in endless debates because everybody will have an opinion.</p>
-<p class="imageb"><img src="/images/bikesheds_5.jpg" alt="" /></p>
+<p class="imageb"><img src="/images/bikesheds_2.jpg" alt="" /><span>Blue? No Red. Maybe Green? Let's schedule another meeting to discuss it.</p>
 <p class="fourth">While no-one on the committee will understand the finer points of a nuclear power plant, bicycle sheds are simple, they're just sheds for bikes, so everyone will feel they intimately understand the subject, and feel the need to have input on it. So you'll end up with a multi-million pound power plant being okayed in a (relative) fraction of the time it takes to decide on a color to paint a £50 bike shed.</p>
 
 </div>
 <div class="under">
 <h2 class="fifth">The same is true of web development</h2>
 
-<p class="sixth">I can sketch out an overview of the technologies involved for some bespoke feature and justify it over the course of an afternoon. Buy these servers, get a license for this, allocate this time. Quick and easy, the client hangs on your every word and goes out follows your advice.</p>
+<p class="sixth">You can outline the architecture for a massively complicated product feature without too much hassle. Buy these servers, get a license for that, allocate so much time. Clean-cut and simple, and the client will follow your every suggestion.</p>
 
-<p class="seventh">Now try and argue why that navigation should be left aligned, and needs to be a specific color and size, and you'll be going round and round and round for weeks. Endless emails and phone calls, and _'Can we just try it this way to see...'_ conversations until you've been through every possible variation and have utterly lost the will to live. </p>
+<p class="seventh">Now try and explain why the main navigation should work a certain way and the link colour needs to be that subtle shade of red, and you'll be going round and round and round for weeks. Endless emails and phone calls, and _'Can we just try it this way to see...'_ conversations until you've been through every possible variation and have utterly lost the will to live. </p>
 
 <h2 class="eight">ad infinitum</h2>
 </div>

@@ -1,24 +1,17 @@
 ---
-layout: home
+layout: none
 title: Joel Bradbury
 ---
-<div class="blurb">
-<p><span class="big">Hello</span> My name's <span class="name">Joel Bradbury</span> and I'm a software developer from North Wales.</p>
-
-<p>I live with my wife <a href="http://flickr.com/photos/gemmabradbury">Gemma</a> and my dog, <a href="http://www.flickr.com/photos/gemmabradbury/sets/72157617508065557/">Mr Jones</a>, and work at <a href="http://www.viewcreative.co.uk">View Creative</a>.</p>
-
-</div>
-</div>
-</div>
-{% for post in site.posts limit:6 %}
-<div class="wrap list {{ post.body }}">
-  <div class="post">
-	{{ post.content }}
-  <p class="signoff">
-    &mdash;<a href="{{ post.url }}">{{ post.date | date: "%b %d, %Y" }}</a>
-  </p>
-  </div>
+{% for post in site.posts limit:1 %}
+{% include head.textile %}
+{% include nav.textile %}
+	<div class="wrap post">
+		<div class="body">
+			<div class="post {{ post.body }}">
+			{{ post.content }}
+		 </div>
+		</div>
 	</div>
+{% include foot.html %}
 {% endfor %}
 
-<h2 id="archives"><a href="archives.html">Archives &raquo;</a></h2>

@@ -5,6 +5,7 @@ categories:
 - asides
 body: aside
 categories : asides
+prev : /journal/2009/10/piping-rm/
 ---
 <blockquote>
 	Time you enjoy wasting,
