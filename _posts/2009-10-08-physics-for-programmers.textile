@@ -1,0 +1,57 @@
+---
+layout: post
+title: Physics for Programmers
+body : physprog 
+category: journal
+published: false
+---
+
+h1. {{ page.title }}
+
+h2. An object in motion tends to stay in motion
+
+There is no such thing as a temporary program.
+
+h2. Two objects cannot occupy the same space at the same time
+
+You cannot do testing or development in a production database.
+
+h2. If an object has more mass than another, more force is required to give it the same acceleration as the other
+
+Debugging time increases as a square of the program's size.
+
+h2. A gas will always expand to fill the volume of its container
+
+All possible race conditions shall happen at some point in the life of a program.
+
+h2. For every force applied there is an equal force applied in the opposite direction
+
+Nothing works until it has been tested.
+
+h2. Entropy will not spontaneously reverse in a closed system
+
+All else being equal, no program will fix itself.
+
+h2. As speed approaches c, mass approaches infinity
+
+In a non-scalable architecture, the amount of hardware required to fix your performance problems approaches infinity.
+
+h2. For a given Turing machine, there exists an input for which the halting condition is undecidable
+
+No input from the user or vendor can be trusted to conform to the specification.
+
+h2. Any computable axiomatic system powerful enough to describe arithmetic on the natural numbers cannot be both consistent and complete, and the consistency of the axioms cannot be proved within the system
+
+Any program that tries to be so generalized and configurable that it could handle any kind of task will either fall short of this goal, or will be horribly broken.
+
+h2. Every function which would be naturally regarded as computable can be computed by any Turing machine
+
+You cannot make the impossible happen by upgrading.
+
+h2. In a hierarchy, every employee tends to rise to his level of incompetence
+
+Programmers will always have to do management tasks, and managers will always want Enterprise Rule Engines and administrator privileges so they can do their own programming.
+
+h2. Anything is appropriate when you know what you're doing
+
+Nobody who uses XML knows what they are doing.

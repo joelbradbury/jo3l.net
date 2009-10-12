@@ -373,3 +373,6 @@ div.wrap div.highlight { background: rgba(10,10,10,0.8); padding:10px; overflow:
 .bikesheds p.fourth { margin-top:180px;}
 .bikesheds p.seventh em { color:#fff;}
 .bikesheds h2.eight { text-align:center;}
+
+.goodprog blockquote { width: 100%; font-size:36px; line-height:1em;}
+.goodprog p.second, .goodprog p.fourth { text-align:left;}
