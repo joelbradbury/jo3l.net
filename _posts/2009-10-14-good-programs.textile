@@ -11,7 +11,7 @@ prev : /journal/2009/10/bike-sheds/
 <blockquote><p class="first">Good programs do not contain spelling errors or have grammatical mistakes</p>
 <p class="second">This is probably a result of a fractal attention to detail</p>
 <p class="third">in great programs things are correct at all levels,</p>
-<p class="fourth">down to the full stop at the ends of sentences in comments.</p>
+<p class="fourth"><span class="start">right down to</span> the full stop at the <span class="mid">ends of</span> sentences <span class="end">in comments</span></p>
 </blockquote>
 
 <p class="src">"30 Years of C - DadHacker":http://www.dadhacker.com/blog/?p=1132</p>
