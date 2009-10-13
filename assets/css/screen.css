@@ -361,7 +361,7 @@ div.wrap div.highlight { background: rgba(10,10,10,0.8); padding:10px; overflow:
 
 .wrap.list.bikesheds, .bikesheds .wrap.post { background: #C78C5D url(none); color:#333;}
 .bikesheds a { color:#eee;}
-.bikesheds h1.title { font-size:120px; line-height:1em; text-transform:uppercase; width:120px; float:left; margin-left:-190px; margin-bottom:30px; font-family:"Helvetia Neue",Helvetica, Arial; color:#000;}
+.bikesheds h1.title { font-size:120px; line-height:1em; text-transform:uppercase; width:120px; float:left; margin-left:-190px; margin-bottom:30px; font-family:"Helvetia Neue",Helvetica, Arial; color:#000; margin-top:15px;}
 .bikesheds h2 { font-size:42px; line-height:46px; color:#fff; text-shadow:1px 1px 3px #666666, -2px -1px 3px #000000;}
 .bikesheds p.first { float:right; width:400px;}
 .bikesheds blockquote { color:#fff; text-shadow:1px 1px 3px #666666, -2px -1px 3px #000000; width:330px; float:right; background:transparent none repeat scroll 0 0; border:none; font-size:26px; font-style:italic; line-height:1.3em; text-align:right;font-family:"Helvetia Neue",Helvetica, Arial; }
