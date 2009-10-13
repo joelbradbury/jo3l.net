@@ -1,8 +1,8 @@
 ---
 layout : aside
 title : Good Programs
-categories :
-- asides
+categories : asides
+tags : 
 - code
 body: aside goodprog
 prev : /journal/2009/10/bike-sheds/
