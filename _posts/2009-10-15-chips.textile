@@ -1,0 +1,16 @@
+---
+layout: post
+title: This man eats only chips
+body : chips 
+category: journal
+published: false
+---
+
+h1. {{ page.title }}
+
+On any given day the liklihood of him eating chips breaks down like so : -
+
+84% Chips (inc. variations of - with curry sauce, with fish, with sausage)
+12% Chip related foods - roasted potatos, chips, hash browns
+4% Chip by-products - Batter, ketchup, cooking oil, plastic forks etc..
+
