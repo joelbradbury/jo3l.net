@@ -1,0 +1,12 @@
+---
+layout : post
+title : Expression Engine Code Igniter Euporean Conference
+categories : journal
+tags : 
+- maths
+body: eeci2009
+prev : 
+---
+
+h1. {{ page.title }}
+            
