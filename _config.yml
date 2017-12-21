@@ -4,3 +4,4 @@ haml: true
 permalink: /:categories/:year/:month/:title 
 schedule_posts: true
 verbose: true
+theme: jekyll-theme-cayman
